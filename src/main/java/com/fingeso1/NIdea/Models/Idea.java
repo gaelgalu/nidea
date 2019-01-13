@@ -13,7 +13,6 @@ public class Idea{
 	private String _id;
 	private String content;
 
-	@DBRef
 	private String author;
 
 
@@ -22,11 +21,11 @@ public class Idea{
 		this.author = author;
 	}
 
-	public String getId(){
+	public String get_id(){
 		return this._id;
 	}
 
-	public void setId(String _id){
+	public void set_id(String _id){
 		this._id = _id;
 	}
 

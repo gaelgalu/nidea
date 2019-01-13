@@ -37,4 +37,16 @@ public class CollaboratorController {
 		this.collaborator_repository.save(collaborator);
 		return collaborator;
 	}
+
+	@RequestMapping(method = RequestMethod.PUT)
+	@ResponseBody
+	public void updateCollaborator(Collaborator collaborator, String _id){
+		Collaborator c = collaborator_repository.findBy_id(_id);
+		c.setName(collaborator.getName());
+		c.setEmail(collaborator.getEmail());
+		c.setLastname(collaborator.getLastname());
+		c.setPublishedIdeas(collaborator.getPublishedIdeas());
+
+		collaborator_repository.save(c);
+	}
 }

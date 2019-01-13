@@ -73,4 +73,8 @@ public class Collaborator {
   public void setPublishedIdeas(ArrayList<Idea> ideas){
     this.publishedIdeas = publishedIdeas;
   }
+
+  public void addIdea(Idea idea){
+    this.publishedIdeas.add(idea);
+  }
 }
