@@ -22,6 +22,7 @@ public class CollaboratorController {
 
 	@RequestMapping(method = RequestMethod.GET)
 	@ResponseBody
+	@CrossOrigin(origins = "http://localhost:4200")
 	public List<Collaborator> getAllCollaborators() {
   		return collaborator_repository.findAll();
   	}
