@@ -26,7 +26,7 @@ public class CollaboratorController {
   		return collaborator_repository.findAll();
   	}
 
-	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
+	@RequestMapping(value = "/{_id}", method = RequestMethod.GET)
 	public Collaborator getCollaboratorById(@PathVariable("_id") String _id) {
   		return collaborator_repository.findBy_id(_id);
 	}
