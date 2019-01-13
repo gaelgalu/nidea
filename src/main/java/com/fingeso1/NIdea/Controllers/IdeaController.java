@@ -27,6 +27,7 @@ public class IdeaController {
   	}
 
 	@RequestMapping(value = "/create", method = RequestMethod.POST)
+	@CrossOrigin(origins = "http://localhost:4200")
 	public void createIdea(@Valid @RequestBody Idea idea){
 		Collaborator c = collaborator_repository.findBy_id(idea.getAuthor());
 		ArrayList<Idea> list = c.getPublishedIdeas();

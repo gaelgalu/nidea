@@ -1,0 +1,21 @@
+<div class="col-md-6">
+  <h2 class="text-center">Add Idea</h2>
+  <form>
+    <div class="form-group">
+      <label for="_id">Id:</label>
+      <input [(ngModel)]="idea._id" placeholder="Id" name="_id" class="form-control" id="_id">
+    </div>
+
+    <div class="form-group">
+      <label for="content">First Content:</label>
+      <input [(ngModel)]="idea.content" placeholder="Content" name="content" class="form-control" id="content">
+    </div>
+
+    <div class="form-group">
+      <label for="author">Author:</label>
+      <input [(ngModel)]="idea.author" placeholder="Author" name="author" class="form-control" id="author">
+    </div>
+
+    <button class="btn btn-success" (click)="createIdea()">Create</button>
+  </form>
+</div>
