@@ -3,5 +3,11 @@
 		"_id": "1",
 		"content": "Esta es la gran idea de Mellado",
 		"author": "1"
+	},
+
+	{
+		"_id": "2",
+		"content": "Esta es la gran idea de Amigo",
+		"author": "2"
 	}
 ]

@@ -1,5 +1,8 @@
 <h2>Collaborator List</h2>
 
 <div *ngFor="let collaborator of collaborators">
-  {{collaborator.name}} {{collaborator.lastname}} {{collaborator.email}}
+  <b>{{collaborator.name}} {{collaborator.lastname}} {{collaborator.email}}</b>
+  <div *ngFor="let idea of collaborator.publishedIdeas">
+    {{idea._id}} {{idea.content}}
+  </div>
 </div>

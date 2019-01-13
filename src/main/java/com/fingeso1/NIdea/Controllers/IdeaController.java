@@ -21,6 +21,7 @@ public class IdeaController {
 
 	@RequestMapping(method = RequestMethod.GET)
 	@ResponseBody
+	@CrossOrigin(origins = "http://localhost:4200")
 	public List<Idea> getAllIdeas() {
   		return idea_repository.findAll();
   	}
