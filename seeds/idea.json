@@ -2,30 +2,53 @@
 	{
 		"_id": "1",
 		"content": "Esta es la gran idea de Mellado",
-		"author": "1"
+		"author": "1",
+		"tags": [
+			"Robótica",
+			"Espacio",
+			"Ingeniería"
+		]
 	},
 
 	{
 		"_id": "2",
 		"content": "Esta es la gran idea de Amigo",
-		"author": "2"
+		"author": "2",
+		"tags": [
+			"Robótica",
+			"Espacio",
+			"Ingeniería"
+		]
 	},
 
 	{
 		"_id": "3",
 		"content": "Esta es la gran idea de Gaete",
-		"author": "3"
+		"author": "3",
+		"tags": [
+			
+		]
 	},
 
 	{
 		"_id": "4",
 		"content": "Esta es la segunda gran idea de Mellado",
-		"author": "1"
+		"author": "1",
+		"tags": [
+			"Robótica",
+			"Espacio",
+			"Ingeniería"
+		]
 	},
 
 	{
 		"_id": "5",
 		"content": "Esta es la tercera gran idea de Amigo",
-		"author": "1"
+		"author": "1",
+		"tags": [
+			"Robótica",
+			"Espacio",
+			"Ingeniería"
+		]
 	}
 ]

@@ -8,17 +8,21 @@ import javax.validation.constraints.NotNull;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 
+import java.util.*;
+import java.text.*;
+
 public class Idea{
 	@Id	
 	private String _id;
 	private String content;
 
 	private String author;
+	private List<String> tags;
 
-
-	public Idea(String content, String author){
+	public Idea(String content, String author, List<String> tags){
 		this.content = content;
 		this.author = author;
+		this.tags = tags;
 	}
 
 	public String get_id(){
@@ -45,4 +49,11 @@ public class Idea{
 		this.author = author;
 	}
 
+	public void setTags(List<String> tags){
+		this.tags = tags;
+	}
+
+	public List<String> getTags(){
+		return this.tags;
+	}
 }
