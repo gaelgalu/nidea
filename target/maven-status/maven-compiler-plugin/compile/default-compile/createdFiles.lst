@@ -1,0 +1,7 @@
+com/fingeso1/NIdea/NIdeaApplication.class
+com/fingeso1/NIdea/Repositories/IdeaRepository.class
+com/fingeso1/NIdea/Models/Idea.class
+com/fingeso1/NIdea/Models/Collaborator.class
+com/fingeso1/NIdea/Controllers/CollaboratorController.class
+com/fingeso1/NIdea/Controllers/IdeaController.class
+com/fingeso1/NIdea/Repositories/CollaboratorRepository.class

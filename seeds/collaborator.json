@@ -1,0 +1,15 @@
+[
+	{
+		"_id": "1",
+		"name": "José",
+		"lastname": "Mellado",
+		"publishedIdeas": 
+		[
+			{
+				"_id": "1",
+				"content": "Esta es la gran idea de Mellado",
+				"author": "1"
+			}
+		]
+	}
+]
