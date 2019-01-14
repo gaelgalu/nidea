@@ -3,7 +3,6 @@ package com.fingeso1.NIdea.Controllers;
 import com.fingeso1.NIdea.Models.Idea;
 import com.fingeso1.NIdea.Models.Collaborator;
 import com.fingeso1.NIdea.Models.IdeaRequest;
-import com.fingeso1.NIdea.Models.FilterIdeaRequest;
 import com.fingeso1.NIdea.Repositories.IdeaRepository;
 import com.fingeso1.NIdea.Repositories.CollaboratorRepository;
 
