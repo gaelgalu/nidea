@@ -1,6 +1,9 @@
+/Users/gaelgalu/Documents/nidea/src/main/java/com/fingeso1/NIdea/Models/CollaboratorRequest.java
 /Users/gaelgalu/Documents/nidea/src/main/java/com/fingeso1/NIdea/Repositories/CollaboratorRepository.java
 /Users/gaelgalu/Documents/nidea/src/main/java/com/fingeso1/NIdea/Models/IdeaRequest.java
 /Users/gaelgalu/Documents/nidea/src/main/java/com/fingeso1/NIdea/Models/Idea.java
+/Users/gaelgalu/Documents/nidea/src/main/java/com/fingeso1/NIdea/Models/Model.java
+/Users/gaelgalu/Documents/nidea/src/main/java/com/fingeso1/NIdea/Utils/IncrementId.java
 /Users/gaelgalu/Documents/nidea/src/main/java/com/fingeso1/NIdea/Models/Collaborator.java
 /Users/gaelgalu/Documents/nidea/src/main/java/com/fingeso1/NIdea/Repositories/IdeaRepository.java
 /Users/gaelgalu/Documents/nidea/src/main/java/com/fingeso1/NIdea/NIdeaApplication.java

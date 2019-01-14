@@ -9,7 +9,7 @@ import javax.persistence.GenerationType;
 import java.util.*;
 
 
-public class Collaborator implements Model {
+public class CollaboratorRequest {
   @Id
   public String _id;
   
@@ -24,58 +24,30 @@ public class Collaborator implements Model {
   // public int approvedIdeas;
   // public int likes;
   // public int state;
-  @DBRef
-  public ArrayList<Idea> publishedIdeas;
+  // public ArrayList<Idea> publishedIdeas;
 
 
   
   // Constructors
-  public Collaborator(String _id, String name, String lastname, String email, ArrayList<Idea> publishedIdeas) {
-    this._id = _id;
+  public CollaboratorRequest(String name, String lastname, String email) {
     this.name = name;
     this.lastname = lastname;
     this.email = email;
-    this.publishedIdeas = publishedIdeas;
   }
   
   public String get_id() {
   	return _id; 
   }
-
-  public void set_id(String _id) { 
-  	this._id = _id; 
-  }
   
   public String getName() { 
   	return this.name; 
   }
-  public void setName(String name) { 
-  	this.name = name; 
-  }
   
   public String getLastname() { 
-  	return lastname; 
+  	return this.lastname; 
   }
-  public void setLastname(String lastname) {
-    this.lastname = lastname; 
- }
   
   public String getEmail() { 
   	return this.email; 
-  }
-  public void setEmail(String email) { 
-  	this.email = email; 
-  }
-
-  public ArrayList<Idea> getPublishedIdeas(){
-    return this.publishedIdeas;
-  }
-
-  public void setPublishedIdeas(ArrayList<Idea> ideas){
-    this.publishedIdeas = publishedIdeas;
-  }
-
-  public void addIdea(Idea idea){
-    this.publishedIdeas.add(idea);
   }
 }
