@@ -11,7 +11,7 @@ import javax.persistence.GenerationType;
 import java.util.*;
 import java.text.*;
 
-public class Idea{
+public class Idea implements Model{
 	@Id	
 	private String _id;
 

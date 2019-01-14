@@ -9,7 +9,7 @@ import javax.persistence.GenerationType;
 import java.util.*;
 
 
-public class Collaborator {
+public class Collaborator implements Model {
   @Id
   public String _id;
   

@@ -1,6 +1,7 @@
 package com.fingeso1.NIdea.Controllers;
 
 import com.fingeso1.NIdea.Models.Idea;
+import com.fingeso1.NIdea.Utils.IncrementId;
 import com.fingeso1.NIdea.Models.Collaborator;
 import com.fingeso1.NIdea.Models.IdeaRequest;
 import com.fingeso1.NIdea.Repositories.IdeaRepository;
@@ -31,8 +32,11 @@ public class IdeaController {
 	@RequestMapping(value = "/create", method = RequestMethod.POST)
 	@CrossOrigin(origins = "http://localhost:4200")
 	public void createIdea(@Valid @RequestBody IdeaRequest ideaRequest){
+
+		IncrementId increment = new IncrementId();
+
 		ArrayList<String> listaTags = new ArrayList<String>(Arrays.asList(ideaRequest.getTags().split(",")));
-		Idea idea = new Idea(ideaRequest.get_id(), ideaRequest.getTitle(), ideaRequest.getContent(), ideaRequest.getAuthor(), listaTags);
+		Idea idea = new Idea(increment.getIncrementId(idea_repository), ideaRequest.getTitle(), ideaRequest.getContent(), ideaRequest.getAuthor(), listaTags);
 		Collaborator c = collaborator_repository.findBy_id(idea.getAuthor());
 		ArrayList<Idea> list = c.getPublishedIdeas();
 		list.add(idea);

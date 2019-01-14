@@ -2,6 +2,7 @@ package com.fingeso1.NIdea.Controllers;
 
 import com.fingeso1.NIdea.Models.Collaborator;
 import com.fingeso1.NIdea.Models.Idea;
+import com.fingeso1.NIdea.Utils.IncrementId;
 import com.fingeso1.NIdea.Repositories.CollaboratorRepository;
 import com.fingeso1.NIdea.Repositories.IdeaRepository;
 
@@ -35,6 +36,9 @@ public class CollaboratorController {
 	@RequestMapping(value = "/", method = RequestMethod.POST)
 	@ResponseBody
 	public Collaborator createCollaborator(@RequestBody Collaborator collaborator){
+		IncrementId increment = new IncrementId();
+
+		collaborator.set_id(increment.getIncrementId(collaborator_repository));
 		this.collaborator_repository.save(collaborator);
 		return collaborator;
 	}
