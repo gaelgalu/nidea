@@ -7,13 +7,18 @@
     </div>
 
     <div class="form-group">
-      <label for="content">First Content:</label>
+      <label for="content">Content:</label>
       <input [(ngModel)]="idea.content" placeholder="Content" name="content" class="form-control" id="content">
     </div>
 
     <div class="form-group">
-      <label for="author">Author:</label>
-      <input [(ngModel)]="idea.author" placeholder="Author" name="author" class="form-control" id="author">
+    <label for="author">Author:</label>
+    <input [(ngModel)]="idea.author" placeholder="Author" name="author" class="form-control" id="author">
+    </div>
+
+    <div class="form-group">
+      <label for="tags">Tags:</label>
+      <input [(ngModel)]="idea.tags" placeholder="Tags" name="tags" class="form-control" id="tags">
     </div>
 
     <button class="btn btn-success" (click)="createIdea()">Create</button>

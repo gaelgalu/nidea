@@ -19,7 +19,8 @@ public class Idea{
 	private String author;
 	private List<String> tags;
 
-	public Idea(String content, String author, List<String> tags){
+	public Idea(String _id, String content, String author, List<String> tags){
+		this._id = _id;
 		this.content = content;
 		this.author = author;
 		this.tags = tags;
