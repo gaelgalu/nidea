@@ -1,7 +1,7 @@
 <h2>Idea List</h2>
 
 <div *ngFor="let idea of ideas">
-  {{idea._id}} {{idea.content}}
+  {{idea._id}} {{idea.title}} {{idea.content}}
   <div *ngFor="let tag of idea.tags">
     {{tag}}
   </div>

@@ -14,13 +14,15 @@ import java.text.*;
 public class Idea{
 	@Id	
 	private String _id;
-	private String content;
 
+	private String title;
+	private String content;
 	private String author;
 	private List<String> tags;
 
-	public Idea(String _id, String content, String author, List<String> tags){
+	public Idea(String _id, String title, String content, String author, List<String> tags){
 		this._id = _id;
+		this.title = title;
 		this.content = content;
 		this.author = author;
 		this.tags = tags;
@@ -56,5 +58,13 @@ public class Idea{
 
 	public List<String> getTags(){
 		return this.tags;
+	}
+
+	public void setTitle(String title){
+		this.title = title;
+	}
+
+	public String getTitle(){
+		return this.title;
 	}
 }

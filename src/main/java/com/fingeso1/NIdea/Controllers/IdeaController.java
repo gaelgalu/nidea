@@ -32,7 +32,7 @@ public class IdeaController {
 	@CrossOrigin(origins = "http://localhost:4200")
 	public void createIdea(@Valid @RequestBody IdeaRequest ideaRequest){
 		ArrayList<String> listaTags = new ArrayList<String>(Arrays.asList(ideaRequest.getTags().split(",")));
-		Idea idea = new Idea(ideaRequest.get_id(),ideaRequest.getContent(), ideaRequest.getAuthor(), listaTags);
+		Idea idea = new Idea(ideaRequest.get_id(), ideaRequest.getTitle(), ideaRequest.getContent(), ideaRequest.getAuthor(), listaTags);
 		Collaborator c = collaborator_repository.findBy_id(idea.getAuthor());
 		ArrayList<Idea> list = c.getPublishedIdeas();
 		list.add(idea);
@@ -47,11 +47,8 @@ public class IdeaController {
 		List<Idea> ideas = idea_repository.findAll();
 		List<Idea> filteredIdeas = new ArrayList<Idea>();
 
-		// System.out.println(tag);
-
 		String tagCleaned = Normalizer.normalize(tag.toLowerCase(), Normalizer.Form.NFD);
 		tagCleaned = tagCleaned.replaceAll("[^\\p{ASCII}]", "");
-
 
 		for (Idea idea : ideas){
 			List<String> tags = idea.getTags();
@@ -59,7 +56,6 @@ public class IdeaController {
 				String strToCompare = Normalizer.normalize(tagOnIdea.toLowerCase(), Normalizer.Form.NFD);
 				strToCompare = strToCompare.replaceAll("[^\\p{ASCII}]", "");
 
-				// System.out.println("TagCleaned: " + tagCleaned + " and tagToCompare: " + strToCompare);
 				if (strToCompare.compareTo(tagCleaned) == 0){
 					filteredIdeas.add(idea);
 				}
@@ -68,4 +64,40 @@ public class IdeaController {
 
 		return filteredIdeas;
 	}
+
+	@RequestMapping(value = "/search", method = RequestMethod.POST)
+	@CrossOrigin(origins = "http://localhost:4200")
+	public List<Idea> searchTitleIdea(@Valid @RequestParam("title") String title){
+		List<Idea> ideas = idea_repository.findAll();
+		List<Idea> ideasSearched = new ArrayList<Idea>();
+
+		String titleCleaned = Normalizer.normalize(title.toLowerCase(), Normalizer.Form.NFD);
+		titleCleaned = titleCleaned.replaceAll("[^\\p{ASCII}]", "");
+
+		for (Idea idea : ideas){
+			String titleIdeaToCompare = Normalizer.normalize(idea.getTitle().toLowerCase(), Normalizer.Form.NFD);
+			titleIdeaToCompare = titleIdeaToCompare.replaceAll("[^\\p{ASCII}]", "");
+
+			if (titleIdeaToCompare.contains(titleCleaned)){
+				ideasSearched.add(idea);
+			}
+		}
+
+		return ideasSearched;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
