@@ -104,16 +104,10 @@
 				"publishedCommentaries": []
 			}
 		],
-<<<<<<< HEAD
-		"publishedDesafios": []
-=======
-		"publishedDesafios" : [
-
-		],
+		"publishedDesafios": [],
 		"likedIdeas" : [
 
 		]
->>>>>>> 4520fb8461e455f6d040ddc82373145ea4959ad5
 	},
 
 	{
@@ -135,15 +129,9 @@
 				"publishedCommentaries": []
 			}
 		],
-<<<<<<< HEAD
-		"publishedDesafios": []
-=======
-		"publishedDesafios" : [
-
-		],
+		"publishedDesafios": [],
 		"likedIdeas" : [
 
 		]
->>>>>>> 4520fb8461e455f6d040ddc82373145ea4959ad5
 	}
 ]
