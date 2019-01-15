@@ -12,7 +12,6 @@ import java.util.*;
 public class Collaborator implements Model {
   @Id
   public String _id;
-  
   public String name;
   public String lastname;
   // public Date bornDate;
@@ -26,7 +25,7 @@ public class Collaborator implements Model {
   // public int state;
   @DBRef
   public ArrayList<Idea> publishedIdeas;
-
+  public ArrayList<Desafio> publishedDesafios;
 
   
   // Constructors
@@ -41,7 +40,6 @@ public class Collaborator implements Model {
   public String get_id() {
   	return _id; 
   }
-
   public void set_id(String _id) { 
   	this._id = _id; 
   }
@@ -74,6 +72,14 @@ public class Collaborator implements Model {
   public void setPublishedIdeas(ArrayList<Idea> ideas){
     this.publishedIdeas = publishedIdeas;
   }
+
+    public ArrayList<Desafio> getPublishedDesafios(){ return this.publishedDesafios; }
+
+    public void setPublishedDesafios(ArrayList<Desafio> desafios){
+        this.publishedDesafios = publishedDesafios;
+    }
+
+    public void addDesafio(Desafio desafio){this.publishedDesafios.add(desafio); }
 
   public void addIdea(Idea idea){
     this.publishedIdeas.add(idea);

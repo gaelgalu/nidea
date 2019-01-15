@@ -15,8 +15,7 @@ public class IncrementId{
 
 		for (Model object : listOfObjects){
 			String actualId = object.get_id();
-
-			if (Integer.parseInt(actualId) > maxId){
+			if (actualId.isEmpty()==false && Integer.parseInt(actualId) > maxId){
 				maxId = Integer.parseInt(actualId);
 			}
 		}

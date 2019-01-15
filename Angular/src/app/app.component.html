@@ -4,9 +4,16 @@
     Welcome to {{ title }}!
   </h1>
 </div>
+<nav>
+  <a routerLink="/vista" routerLinkActive="active">VistaActivaplz </a>
+
+  <a routerLink="/agregarIdea" routerLinkActive="active"> VistaAgregarIdea </a>
+
+  <a routerLink="/colaboradores" routerLinkActive="active"> VistaColaboradores </a>
+</nav>
+<router-outlet></router-outlet>
+<body>
 <app-collaborator-list></app-collaborator-list>
 <app-idea-list></app-idea-list>
-
-<app-add-idea></app-add-idea>
 <router-outlet></router-outlet>
-
+</body>

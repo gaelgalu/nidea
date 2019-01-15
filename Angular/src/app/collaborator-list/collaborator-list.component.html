@@ -1,8 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
 <h2>Collaborator List</h2>
+</head>
 
+<body>
 <div *ngFor="let collaborator of collaborators">
   <b>{{collaborator.name}} {{collaborator.lastname}} {{collaborator.email}}</b>
   <div *ngFor="let idea of collaborator.publishedIdeas">
     {{idea._id}} {{idea.content}}
   </div>
+  <button>
+    WENA BB
+  </button>
 </div>
+</body>
+
+</html>

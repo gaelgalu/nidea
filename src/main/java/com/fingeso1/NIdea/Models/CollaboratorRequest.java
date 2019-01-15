@@ -12,7 +12,6 @@ import java.util.*;
 public class CollaboratorRequest {
   @Id
   public String _id;
-  
   public String name;
   public String lastname;
   // public Date bornDate;
