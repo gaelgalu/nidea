@@ -90,10 +90,15 @@ public class IdeaController {
 		return ideasSearched;
 	}
 
+	@RequestMapping(value = "/{_id}", method = RequestMethod.GET)
+	@ResponseBody
+	public Idea searchIdea(@PathVariable("_id") String _id){
+		return idea_repository.findBy_id(_id);
+	}
 
 	@RequestMapping(value = "/{_id}/like", method = RequestMethod.PUT)
 	@ResponseBody
-	public Idea updateCollaborator(@PathVariable("_id") String _id){
+	public Idea giveLike(@PathVariable("_id") String _id){
 		Idea idea = idea_repository.findBy_id(_id);
 		idea.setLikes(idea.getLikes() + 1);
 
