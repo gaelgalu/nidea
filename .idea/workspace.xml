@@ -2,25 +2,391 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63187bc4-692a-4c4b-89f0-ef1176c38e82" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_atteo_evo_inflector_1_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_atteo_evo_inflector_1_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_2_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_13_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_13_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_8_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_8_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_8_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_8_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_8_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_8_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_2_1_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_rest_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_rest_2_1_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_2_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_2_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_core_3_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_core_3_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_webmvc_3_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_webmvc_3_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_hateoas_spring_hateoas_0_25_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_hateoas_spring_hateoas_0_25_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular/src/app/add-idea/add-idea.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/add-idea/add-idea.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular/src/app/add-idea/add-idea.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/add-idea/add-idea.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular/src/app/shared/idea/idea.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/shared/idea/idea.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular/src/app/shared/idea/idea.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/shared/idea/idea.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/NIdea/com/fingeso1/NIdea/Controllers/CollaboratorController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/NIdea/com/fingeso1/NIdea/Models/Collaborator.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/NIdea/com/fingeso1/NIdea/Models/Collaborator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/NIdea/com/fingeso1/NIdea/Models/CollaboratorRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/e2e/protractor.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/e2e/protractor.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/e2e/src/app.e2e-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/e2e/src/app.po.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/e2e/src/app.po.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/e2e/tsconfig.e2e.json" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/e2e/tsconfig.e2e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/app.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/component/accordion/accordion.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/component/accordion/accordion.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/component/accordion/accordion.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/component/accordion/accordion.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/component/alert/alert.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/component/alert/alert.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/component/alert/alert.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/component/alert/alert.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/component/carousel/carousel.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/component/carousel/carousel.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/component/carousel/carousel.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/component/carousel/carousel.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/component/component.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/component/component.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/component/component.routing.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/component/component.routing.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/component/datepicker/datepicker.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/component/datepicker/datepicker.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/component/datepicker/datepicker.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/component/datepicker/datepicker.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/component/dropdown-collapse/dropdown-collapse.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/component/dropdown-collapse/dropdown-collapse.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/component/dropdown-collapse/dropdown-collapse.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/component/dropdown-collapse/dropdown-collapse.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/component/modal/modal.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/component/modal/modal.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/component/modal/modal.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/component/modal/modal.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/component/pagination/pagination.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/component/pagination/pagination.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/component/pagination/pagination.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/component/pagination/pagination.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/component/popover-tooltip/popover-tooltip.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/component/popover-tooltip/popover-tooltip.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/component/popover-tooltip/popover-tooltip.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/component/popover-tooltip/popover-tooltip.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/component/progressbar/progressbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/component/progressbar/progressbar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/component/progressbar/progressbar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/component/progressbar/progressbar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/component/rating/rating.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/component/rating/rating.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/component/rating/rating.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/component/rating/rating.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/component/tabs/tabs.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/component/tabs/tabs.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/component/tabs/tabs.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/component/tabs/tabs.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/component/timepicker/timepicker.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/component/timepicker/timepicker.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/component/timepicker/timepicker.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/component/timepicker/timepicker.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/component/typehead/typehead.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/component/typehead/typehead.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/component/typehead/typehead.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/component/typehead/typehead.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/layouts/full/full.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/layouts/full/full.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/layouts/full/full.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/layouts/full/full.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/layouts/full/full.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/layouts/full/full.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/shared/breadcrumb/breadcrumb.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/shared/breadcrumb/breadcrumb.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/shared/breadcrumb/breadcrumb.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/shared/breadcrumb/breadcrumb.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/shared/header-navigation/navigation.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/shared/header-navigation/navigation.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/shared/header-navigation/navigation.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/shared/header-navigation/navigation.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/shared/sidebar/menu-items.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/shared/sidebar/menu-items.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/shared/sidebar/sidebar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/shared/sidebar/sidebar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/shared/sidebar/sidebar.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/shared/sidebar/sidebar.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/shared/sidebar/sidebar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/shared/sidebar/sidebar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/shared/sidebar/sidebar.metadata.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/shared/sidebar/sidebar.metadata.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/shared/spinner.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/shared/spinner.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/starter/starter.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/starter/starter.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/starter/starter.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/starter/starter.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/starter/starter.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/starter/starter.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/background/active-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/background/active-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/background/active-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/background/active-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/background/error-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/background/error-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/background/img5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/background/img5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/background/img5.png" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/background/img5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/background/login-register.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/background/login-register.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/background/megamenubg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/background/megamenubg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/background/profile-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/background/profile-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/background/sidebarbg.png" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/background/sidebarbg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/background/socialbg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/background/socialbg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/background/user-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/background/user-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/background/user-info.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/background/user-info.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/background/weatherbg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/background/weatherbg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/big/auth-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/big/auth-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/big/auth-bg2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/big/auth-bg2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/big/d2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/big/d2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/big/img1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/big/img1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/big/img2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/big/img2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/big/img3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/big/img3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/big/img4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/big/img4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/big/img5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/big/img5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/big/img6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/big/img6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/logo-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/logo-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/logo-light-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/logo-light-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/logo-light-text.png" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/logo-light-text.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/logo-text.png" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/logo-text.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/users/1-old.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/users/1-old.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/users/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/users/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/users/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/users/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/users/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/users/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/users/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/users/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/users/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/users/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/users/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/users/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/users/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/users/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/users/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/users/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/users/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/users/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/users/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/users/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/users/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/users/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/users/agent.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/users/agent.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/users/agent2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/users/agent2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/users/d1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/users/d1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/users/d2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/users/d2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/users/d3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/users/d3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/users/d4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/users/d4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/users/d5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/users/d5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/images/users/profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/images/users/profile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_alert.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_badge.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_breadcrumb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_breadcrumb.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_button-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_button-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_carousel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_close.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_close.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_code.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_code.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_custom-forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_custom-forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_dropdown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_functions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_images.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_input-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_input-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_jumbotron.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_jumbotron.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_list-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_modal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_pagination.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_popover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_popover.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_print.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_print.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_progress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_progress.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_reboot.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_root.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_root.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_tables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_tooltip.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_transitions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_transitions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_type.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_utilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/bootstrap-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/bootstrap-grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/bootstrap-reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/bootstrap-reboot.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/bootstrap.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_alert.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_background-variant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_background-variant.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_badge.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_border-radius.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_border-radius.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_box-shadow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_box-shadow.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_breakpoints.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_breakpoints.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_caret.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_caret.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_clearfix.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_float.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_float.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_gradients.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_gradients.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_grid-framework.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_grid-framework.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_hover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_hover.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_image.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_list-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_lists.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_lists.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_nav-divider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_nav-divider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_pagination.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_reset-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_reset-text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_resize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_resize.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_screen-reader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_screen-reader.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_size.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_size.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_table-row.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_table-row.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_text-emphasis.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_text-hide.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_text-hide.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_text-truncate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_text-truncate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_transition.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_transition.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_visibility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/mixins/_visibility.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/utilities/_align.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/utilities/_align.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/utilities/_background.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/utilities/_background.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/utilities/_borders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/utilities/_borders.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/utilities/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/utilities/_clearfix.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/utilities/_display.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/utilities/_display.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/utilities/_embed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/utilities/_embed.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/utilities/_flex.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/utilities/_flex.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/utilities/_float.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/utilities/_float.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/utilities/_position.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/utilities/_position.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/utilities/_screenreaders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/utilities/_screenreaders.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/utilities/_shadows.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/utilities/_shadows.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/utilities/_sizing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/utilities/_sizing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/utilities/_spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/utilities/_spacing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/utilities/_text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/utilities/_text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/utilities/_visibility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/bootstrap/utilities/_visibility.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/components.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/components.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/core/animation/animation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/core/animation/animation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/core/breadcrumb/breadcrumb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/core/breadcrumb/breadcrumb.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/core/buttons/buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/core/buttons/buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/core/core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/core/core.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/core/layout/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/core/layout/layout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/core/loader/spinner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/core/loader/spinner.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/core/scafholdings/scafholding.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/core/scafholdings/scafholding.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/core/sidebar/sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/core/sidebar/sidebar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/core/topbar/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/core/topbar/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/core/wave-effects/wave-effects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/core/wave-effects/wave-effects.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/css/fa-brands.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/css/fa-brands.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/css/fa-brands.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/css/fa-brands.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/css/fa-regular.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/css/fa-regular.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/css/fa-regular.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/css/fa-regular.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/css/fa-solid.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/css/fa-solid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/css/fa-solid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/css/fa-solid.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/css/fontawesome-all.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/css/fontawesome-all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/css/fontawesome-all.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/css/fontawesome-all.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/css/fontawesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/css/fontawesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/css/fontawesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/css/fontawesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/less/_animated.less" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/less/_animated.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/less/_bordered-pulled.less" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/less/_bordered-pulled.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/less/_core.less" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/less/_core.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/less/_fixed-width.less" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/less/_fixed-width.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/less/_icons.less" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/less/_icons.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/less/_larger.less" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/less/_larger.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/less/_list.less" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/less/_list.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/less/_mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/less/_mixins.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/less/_rotated-flipped.less" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/less/_rotated-flipped.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/less/_screen-reader.less" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/less/_screen-reader.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/less/_stacked.less" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/less/_stacked.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/less/_variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/less/_variables.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/less/fa-brands.less" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/less/fa-brands.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/less/fa-regular.less" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/less/fa-regular.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/less/fa-solid.less" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/less/fa-solid.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/less/fontawesome.less" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/less/fontawesome.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/scss/_animated.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/scss/_core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/scss/_core.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/scss/_fixed-width.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/scss/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/scss/_larger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/scss/_list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/scss/_list.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/scss/_screen-reader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/scss/_screen-reader.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/scss/_stacked.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/scss/fa-brands.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/scss/fa-brands.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/scss/fa-regular.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/scss/fa-regular.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/scss/fa-solid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/scss/fa-solid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/scss/fontawesome.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/scss/fontawesome.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/webfonts/fa-brands-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/webfonts/fa-brands-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/webfonts/fa-brands-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/webfonts/fa-brands-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/webfonts/fa-brands-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/webfonts/fa-regular-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/webfonts/fa-regular-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/webfonts/fa-regular-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/webfonts/fa-regular-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/webfonts/fa-regular-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/webfonts/fa-solid-900.eot" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/webfonts/fa-solid-900.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/webfonts/fa-solid-900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/webfonts/fa-solid-900.woff" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/webfonts/fa-solid-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/font-awesome/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/material-design-iconic-font/css/material-design-iconic-font.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/material-design-iconic-font/css/material-design-iconic-font.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/material-design-iconic-font/css/material-design-iconic-font.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/material-design-iconic-font/css/material-design-iconic-font.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/material-design-iconic-font/css/materialdesignicons.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/material-design-iconic-font/css/materialdesignicons.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.eot" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/themify-icons/fonts/themify.eot" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/themify-icons/fonts/themify.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/themify-icons/fonts/themify.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/themify-icons/fonts/themify.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/themify-icons/fonts/themify.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/themify-icons/fonts/themify.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/themify-icons/fonts/themify.woff" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/themify-icons/fonts/themify.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/themify-icons/ie7/ie7.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/themify-icons/ie7/ie7.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/themify-icons/ie7/ie7.js" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/themify-icons/ie7/ie7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/themify-icons/themify-icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/themify-icons/themify-icons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/icons/themify-icons/themify-icons.less" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/icons/themify-icons/themify-icons.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/mixins/padding-margin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/mixins/padding-margin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/responsive.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/theme-colors/theme-colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/theme-colors/theme-colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/scss/variable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/scss/variable.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/vendor/css-chart.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/vendor/css-chart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/assets/vendor/sparkline.js" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/assets/vendor/sparkline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/browserslist" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/browserslist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/environments/environment.prod.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/karma.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/polyfills.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/tsconfig.spec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seeds/collaborator.json" beforeDir="false" afterPath="$PROJECT_DIR$/seeds/collaborator.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seeds/idea.json" beforeDir="false" afterPath="$PROJECT_DIR$/seeds/idea.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Controllers/CollaboratorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Controllers/CollaboratorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Controllers/IdeaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Controllers/IdeaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Models/Collaborator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Models/Collaborator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Models/CollaboratorRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Models/CollaboratorRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Models/Idea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Models/Idea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Repositories/IdeaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Repositories/IdeaRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/fingeso1/NIdea/Controllers/CollaboratorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fingeso1/NIdea/Controllers/CollaboratorController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/fingeso1/NIdea/Controllers/IdeaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fingeso1/NIdea/Controllers/IdeaController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/fingeso1/NIdea/Models/Collaborator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fingeso1/NIdea/Models/Collaborator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fingeso1/NIdea/Models/CollaboratorRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fingeso1/NIdea/Models/CollaboratorRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fingeso1/NIdea/Utils/IncrementId.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fingeso1/NIdea/Utils/IncrementId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fingeso1/NIdea/Models/Idea.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fingeso1/NIdea/Models/Idea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fingeso1/NIdea/Repositories/IdeaRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fingeso1/NIdea/Repositories/IdeaRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,112 +398,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+        <entry file="file://$PROJECT_DIR$/Angular/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1982">
-              <caret line="638" column="10" selection-start-line="638" selection-start-column="10" selection-end-line="638" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Models/Collaborator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+            <state relative-caret-position="231">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1109#1110#0" expanded="true" />
-                <element signature="e#1140#1141#0" expanded="true" />
-                <element signature="e#1188#1189#0" expanded="true" />
-                <element signature="e#1228#1229#0" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Models/CollaboratorRequest.java">
+        <entry file="file://$PROJECT_DIR$/Angular/src/app/app.component.spec.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state>
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#55#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Models/Desafio.java">
+        <entry file="file://$PROJECT_DIR$/Angular/src/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-163">
-              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Utils/IncrementId.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Models/Idea.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-44">
-              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Models/IdeaRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Repositories/DesafioRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Controllers/CollaboratorController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Models/DesafioRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Angular/src/app/app.component.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -181,7 +475,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="974" />
@@ -193,8 +487,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,16 +497,24 @@
             <path>
               <item name="NIdea" type="b2602c69:ProjectViewProjectNode" />
               <item name="nidea" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NIdea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nidea" type="462c0819:PsiDirectoryNode" />
               <item name="Angular" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NIdea" type="b2602c69:ProjectViewProjectNode" />
               <item name="nidea" type="462c0819:PsiDirectoryNode" />
+              <item name="Angular" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NIdea" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nidea" type="462c0819:PsiDirectoryNode" />
+              <item name="Angular" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NIdea" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nidea" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -229,50 +529,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NIdea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nidea" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="NIdea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NIdea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nidea" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="NIdea" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NIdea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nidea" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="NIdea" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NIdea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nidea" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="NIdea" type="462c0819:PsiDirectoryNode" />
-              <item name="Repositories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NIdea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nidea" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="NIdea" type="462c0819:PsiDirectoryNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NIdea" type="b2602c69:ProjectViewProjectNode" />
@@ -285,6 +541,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,7 +554,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547516473940" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="ts.external.directory.path" value="C:\Users\56997\Desktop\nidea\Angular\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\JoseMauricio\nidea\Angular\node_modules\typescript\lib" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -324,11 +582,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.NIdeaApplication" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -342,24 +595,23 @@
       <updated>1547355436083</updated>
       <workItem from="1547406460072" duration="10802000" />
       <workItem from="1547429269660" duration="3072000" />
+      <workItem from="1547553602314" duration="1515000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14169000" />
+    <option name="totallyTimeSpent" value="15684000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.114072494" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
@@ -367,12 +619,12 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32794118" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32649574" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -381,6 +633,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,9 +655,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/src/app/collaborator-list/collaborator-list.component.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/src/app/collaborator-list/collaborator-list.component.css" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/NIdeaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -422,19 +673,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/src/app/shared/collaborator/collaborator.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/src/app/idea-list/idea-list.component.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/src/app/shared/collaborator/collaborator.service.ts" />
+    <entry file="file://$PROJECT_DIR$/Angular/src/app/idea-list/idea-list.component.css" />
     <entry file="file://$PROJECT_DIR$/seeds/collaborator.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -443,28 +683,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Angular/src/app/shared/collaborator/collaborator.model.ts" />
-    <entry file="file://$PROJECT_DIR$/Angular/src/app/collaborator-list/collaborator-list.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/src/app/collaborator-list/collaborator-list.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/src/app/collaborator-list/collaborator-list.component.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/Angular/src/app/collaborator-list/collaborator-list.component.ts" />
     <entry file="file://$PROJECT_DIR$/Angular/src/app/app-routing.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -478,13 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -523,30 +736,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Models/IdeaRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Models/Idea.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/src/app/shared/idea/idea.model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/src/app/shared/idea/idea.model.ts" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Controllers/IdeaController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -557,77 +747,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/src/app/shared/idea/idea.service.ts">
+    <entry file="file://$PROJECT_DIR$/Angular/src/app/shared/idea/idea.service.ts" />
+    <entry file="file://$PROJECT_DIR$/Angular/src/app/add-idea/add-idea.component.ts" />
+    <entry file="file://$PROJECT_DIR$/Angular/src/app/idea-list/idea-list.component.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/Angular/src/app/idea-list/idea-list.component.ts" />
+    <entry file="file://$PROJECT_DIR$/Angular/src/app/collaborator-list/collaborator-list.component.html" />
+    <entry file="file://$PROJECT_DIR$/Angular/src/app/idea-list/idea-list.component.html" />
+    <entry file="file://$PROJECT_DIR$/Angular/src/app/add-idea/add-idea.component.html" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="71" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/src/app/add-idea/add-idea.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/src/app/idea-list/idea-list.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/src/app/idea-list/idea-list.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/src/app/collaborator-list/collaborator-list.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/src/app/idea-list/idea-list.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/src/app/add-idea/add-idea.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        <state relative-caret-position="10846">
+          <caret line="638" column="10" selection-start-line="638" selection-start-column="10" selection-end-line="638" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Models/Collaborator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
+        <state relative-caret-position="476">
           <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1109#1110#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1188#1189#0" expanded="true" />
-            <element signature="e#1228#1229#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Models/CollaboratorRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Models/Desafio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Utils/IncrementId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Models/Idea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Models/IdeaRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Repositories/DesafioRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
         </state>
       </provider>
     </entry>
@@ -637,6 +816,42 @@
           <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Models/DesafioRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/src/app/app.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/src/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
