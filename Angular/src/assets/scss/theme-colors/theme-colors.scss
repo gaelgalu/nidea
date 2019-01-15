@@ -4,18 +4,18 @@
         /*This is for the logo bg*/
         .topbar .top-navbar .navbar-header{
             &[data-logobg="skin5"]{
-                background: $skin5;
+                background: #bf0b25;
             }
         }
         .topbar .navbar-collapse, .topbar{
             &[data-navbarbg="skin6"]{
-                background: $skin6;
+                background: #bf0b25;
             }
         }
         /*This is for the sidebar bg*/
         .left-sidebar{
             &[data-sidebarbg="skin5"], &[data-sidebarbg="skin5"] ul {
-                background: $skin5;
+                background: #bf0b25;
             }
         }
     }
