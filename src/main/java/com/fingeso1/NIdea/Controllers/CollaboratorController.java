@@ -1,6 +1,7 @@
 package com.fingeso1.NIdea.Controllers;
 
 import com.fingeso1.NIdea.Models.Collaborator;
+import com.fingeso1.NIdea.Models.Desafio;
 import com.fingeso1.NIdea.Models.Idea;
 import com.fingeso1.NIdea.Models.CollaboratorRequest;
 import com.fingeso1.NIdea.Utils.IncrementId;
@@ -38,7 +39,8 @@ public class CollaboratorController {
 	@ResponseBody
 	public Collaborator createCollaborator(@RequestBody CollaboratorRequest collaboratorRequest){
 		IncrementId increment = new IncrementId();
-		Collaborator collaborator = new Collaborator(increment.getIncrementId(collaborator_repository), collaboratorRequest.getName(), collaboratorRequest.getLastname(), collaboratorRequest.getEmail(),new ArrayList<Idea>());
+
+		Collaborator collaborator = new Collaborator(increment.getIncrementId(collaborator_repository), collaboratorRequest.getName(), collaboratorRequest.getLastname(), collaboratorRequest.getEmail(),collaboratorRequest.getPassword(), new ArrayList<Idea>(), new ArrayList<Desafio>());
 
 		// collaborator.setPublishedIdeas(new ArrayList<Idea>());
 		// collaborator.set_id(increment.getIncrementId(collaborator_repository));

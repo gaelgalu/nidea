@@ -14,7 +14,7 @@ export class AddIdeaComponent implements OnInit {
   constructor(private router: Router, private ideaService: IdeaService) { }
 
   createIdea(): void {
-    this.ideaService.createUser(this.idea)
+    this.ideaService.createIdea(this.idea)
       .subscribe(data => {
         alert("Idea created successfully.");
       });

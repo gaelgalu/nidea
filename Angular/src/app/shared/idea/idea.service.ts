@@ -16,7 +16,7 @@ export class IdeaService {
     return this.http.get('//localhost:8090/ideas');
   }
 
-  createUser(idea){
+  createIdea(idea){
     return this.http.post<Idea>('//localhost:8090/ideas/create', idea);
   }
 }

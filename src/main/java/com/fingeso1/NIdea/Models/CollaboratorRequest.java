@@ -17,7 +17,12 @@ public class CollaboratorRequest {
   // public Date bornDate;
   // public Date registerDate;
   public String email;
-  // public String password;
+
+  public String getPassword() {
+    return password;
+  }
+
+  public String password;
   // public String phone;
   // public String adress;
   // public int approvedIdeas;
