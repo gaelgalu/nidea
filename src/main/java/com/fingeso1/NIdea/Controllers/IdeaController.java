@@ -1,9 +1,8 @@
 package com.fingeso1.NIdea.Controllers;
 
-import com.fingeso1.NIdea.Models.Idea;
+import com.fingeso1.NIdea.Models.*;
+import com.fingeso1.NIdea.Repositories.CommentaryRepository;
 import com.fingeso1.NIdea.Utils.IncrementId;
-import com.fingeso1.NIdea.Models.Collaborator;
-import com.fingeso1.NIdea.Models.IdeaRequest;
 import com.fingeso1.NIdea.Repositories.IdeaRepository;
 import com.fingeso1.NIdea.Repositories.CollaboratorRepository;
 
@@ -21,7 +20,8 @@ public class IdeaController {
 	private IdeaRepository idea_repository;
 	@Autowired
 	private CollaboratorRepository collaborator_repository;
-
+	@Autowired
+	private CommentaryRepository commentary_repository;
 	@RequestMapping(method = RequestMethod.GET)
 	@ResponseBody
 	@CrossOrigin(origins = "http://localhost:4200")
@@ -36,7 +36,7 @@ public class IdeaController {
 		IncrementId increment = new IncrementId();
 
 		ArrayList<String> listaTags = new ArrayList<String>(Arrays.asList(ideaRequest.getTags().split(",")));
-		Idea idea = new Idea(increment.getIncrementId(idea_repository), ideaRequest.getTitle(), ideaRequest.getContent(), ideaRequest.getAuthor(), listaTags);
+		Idea idea = new Idea(increment.getIncrementId(idea_repository), ideaRequest.getTitle(), ideaRequest.getContent(), ideaRequest.getAuthor(), listaTags, ideaRequest.getCommentaries());
 		Collaborator c = collaborator_repository.findBy_id(idea.getAuthor());
 		ArrayList<Idea> list = c.getPublishedIdeas();
 		list.add(idea);
@@ -90,7 +90,21 @@ public class IdeaController {
 		return ideasSearched;
 	}
 
+	@RequestMapping(value = "/comment/{idea}", method = RequestMethod.POST)
+	@CrossOrigin(origins = "http://localhost:4200")
+	public void createCommentary(@Valid @RequestBody CommentaryRequest commentaryRequest, @Valid @PathVariable("idea") String idea){
 
+		IncrementId increment = new IncrementId();
+		Commentary commentary = new Commentary(increment.getIncrementId(commentary_repository), commentaryRequest.getBody(), idea, commentaryRequest.getAuthor());
+		Collaborator c = collaborator_repository.findBy_id(commentary.getAuthor());
+		Idea i =idea_repository.findBy_id(idea);
+		ArrayList<Commentary> list2 = i.getPublishedCommentaries();
+		list2.add(commentary);
+		i.setPublishedCommentaries(list2);
+		collaborator_repository.save(c);
+		idea_repository.save(i);
+		commentary_repository.save(commentary);
+	}
 
 
 
