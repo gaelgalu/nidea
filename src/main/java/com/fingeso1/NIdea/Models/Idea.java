@@ -18,14 +18,16 @@ public class Idea implements Model{
 	private String title;
 	private String content;
 	private String author;
+	private int likes;
 	private List<String> tags;
 
-	public Idea(String _id, String title, String content, String author, List<String> tags){
+	public Idea(String _id, String title, String content, String author, List<String> tags, int likes){
 		this._id = _id;
 		this.title = title;
 		this.content = content;
 		this.author = author;
 		this.tags = tags;
+		this.likes = likes;
 	}
 
 	public String get_id(){
@@ -67,4 +69,13 @@ public class Idea implements Model{
 	public String getTitle(){
 		return this.title;
 	}
+
+	public void setLikes(int likes){
+		this.likes = likes;
+	}
+
+	public int getLikes(){
+		return this.likes;
+	}
+
 }

@@ -36,7 +36,7 @@ public class IdeaController {
 		IncrementId increment = new IncrementId();
 
 		ArrayList<String> listaTags = new ArrayList<String>(Arrays.asList(ideaRequest.getTags().split(",")));
-		Idea idea = new Idea(increment.getIncrementId(idea_repository), ideaRequest.getTitle(), ideaRequest.getContent(), ideaRequest.getAuthor(), listaTags);
+		Idea idea = new Idea(increment.getIncrementId(idea_repository), ideaRequest.getTitle(), ideaRequest.getContent(), ideaRequest.getAuthor(), listaTags, 0);
 		Collaborator c = collaborator_repository.findBy_id(idea.getAuthor());
 		ArrayList<Idea> list = c.getPublishedIdeas();
 		list.add(idea);
@@ -91,7 +91,16 @@ public class IdeaController {
 	}
 
 
+	@RequestMapping(value = "/{_id}/like", method = RequestMethod.PUT)
+	@ResponseBody
+	public Idea updateCollaborator(@PathVariable("_id") String _id){
+		Idea idea = idea_repository.findBy_id(_id);
+		idea.setLikes(idea.getLikes() + 1);
 
+		idea_repository.save(idea);
+
+		return idea;
+	}
 
 
 
