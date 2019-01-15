@@ -13,28 +13,37 @@ public class Collaborator implements Model {
   @Id
   public String _id;
   
-  public String name;
-  public String lastname;
-  // public Date bornDate;
-  // public Date registerDate;
-  public String email;
-  // public String password;
-  // public String phone;
-  // public String adress;
-  // public int approvedIdeas;
-  // public int likes;
-  // public int state;
+  private String name;
+  private String lastname;
+  // private Date bornDate;
+  // private Date registerDate;
+  private String email;
+
+  private String password;
+  // private String phone;
+  // private String adress;
+  // private int approvedIdeas;
+  // private int likes;
+  // private int state;
   @DBRef
   public ArrayList<Idea> publishedIdeas;
 
 
-  
-  // Constructors
-  public Collaborator(String _id, String name, String lastname, String email, ArrayList<Idea> publishedIdeas) {
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    // Constructors
+  public Collaborator(String _id, String name, String lastname, String email, String password, ArrayList<Idea> publishedIdeas) {
     this._id = _id;
     this.name = name;
     this.lastname = lastname;
     this.email = email;
+    this.password = password;
     this.publishedIdeas = publishedIdeas;
   }
   

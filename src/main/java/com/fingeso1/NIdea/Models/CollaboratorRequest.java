@@ -12,13 +12,17 @@ import java.util.*;
 public class CollaboratorRequest {
   @Id
   public String _id;
-  
   public String name;
   public String lastname;
   // public Date bornDate;
   // public Date registerDate;
   public String email;
-  // public String password;
+
+  public String getPassword() {
+    return password;
+  }
+
+  public String password;
   // public String phone;
   // public String adress;
   // public int approvedIdeas;
