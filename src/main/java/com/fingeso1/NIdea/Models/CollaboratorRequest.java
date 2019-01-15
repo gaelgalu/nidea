@@ -35,7 +35,8 @@ public class CollaboratorRequest {
     this.lastname = lastname;
     this.email = email;
   }
-  
+
+
   public String get_id() {
     return _id; 
   }

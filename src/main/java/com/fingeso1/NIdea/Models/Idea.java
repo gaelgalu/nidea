@@ -20,13 +20,14 @@ public class Idea implements Model{
 	private String author;
 	private int likes;
 	private List<String> tags;
-
-	public Idea(String _id, String title, String content, String author, List<String> tags, int likes){
+	private ArrayList<Commentary> publishedCommentaries;
+	public Idea(String _id, String title, String content, String author, List<String> tags, int likes, ArrayList<Commentary> publishedCommentaries) {
 		this._id = _id;
 		this.title = title;
 		this.content = content;
 		this.author = author;
 		this.tags = tags;
+		this.publishedCommentaries= publishedCommentaries;
 		this.likes = likes;
 	}
 
@@ -70,6 +71,13 @@ public class Idea implements Model{
 		return this.title;
 	}
 
+	public ArrayList<Commentary> getPublishedCommentaries() {
+		return publishedCommentaries;
+	}
+
+	public void setPublishedCommentaries(ArrayList<Commentary> commentaries) {
+		this.publishedCommentaries = commentaries;
+	}
 	public void setLikes(int likes){
 		this.likes = likes;
 	}

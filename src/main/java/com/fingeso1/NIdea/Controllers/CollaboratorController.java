@@ -1,9 +1,6 @@
 package com.fingeso1.NIdea.Controllers;
 
-import com.fingeso1.NIdea.Models.Collaborator;
-import com.fingeso1.NIdea.Models.Desafio;
-import com.fingeso1.NIdea.Models.Idea;
-import com.fingeso1.NIdea.Models.CollaboratorRequest;
+import com.fingeso1.NIdea.Models.*;
 import com.fingeso1.NIdea.Utils.IncrementId;
 import com.fingeso1.NIdea.Repositories.CollaboratorRepository;
 import com.fingeso1.NIdea.Repositories.IdeaRepository;

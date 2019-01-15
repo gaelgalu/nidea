@@ -49,8 +49,8 @@ public class Collaborator implements Model {
     this.publishedDesafios = publishedDesafios;
     this.likedIdeas = likedIdeas;
   }
-  
-  public String get_id() {
+
+    public String get_id() {
   	return _id; 
   }
   public void set_id(String _id) { 
@@ -109,4 +109,5 @@ public class Collaborator implements Model {
   public void addIdea(Idea idea){
     this.publishedIdeas.add(idea);
   }
+
 }
