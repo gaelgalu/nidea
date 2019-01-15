@@ -1,3 +1,4 @@
-com\fingeso1\NIdea\Utils\IncrementId.class
-com\fingeso1\NIdea\Models\CollaboratorRequest.class
-com\fingeso1\NIdea\Models\Model.class
+com/fingeso1/NIdea/Models/DesafioRequest.class
+com/fingeso1/NIdea/Models/Desafio.class
+com/fingeso1/NIdea/Controllers/DesafioController.class
+com/fingeso1/NIdea/Repositories/DesafioRepository.class

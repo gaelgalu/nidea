@@ -1,16 +1,12 @@
 [
 	{
-				"_id": "46",
-				"content": "Este es el primer desafio del men",
-				"title": "Título del desafío",
-				"author": "1",
-				"tags": [
-					"Ingeniería",
-					"Salud"
-				]
+		"_id": "46",
+		"content": "Este es el primer desafio del men",
+		"title": "Título del desafío",
+		"author": "1",
+		"tags": [
+			"Ingeniería",
+			"Salud"
+		]
 	}
-
-
-
-
 ]
