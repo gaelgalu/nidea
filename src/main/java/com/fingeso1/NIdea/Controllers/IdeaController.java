@@ -36,7 +36,7 @@ public class IdeaController {
 		IncrementId increment = new IncrementId();
 
 		ArrayList<String> listaTags = new ArrayList<String>(Arrays.asList(ideaRequest.getTags().split(",")));
-		Idea idea = new Idea(increment.getIncrementId(idea_repository), ideaRequest.getTitle(), ideaRequest.getContent(), ideaRequest.getAuthor(), listaTags, 0, ideaRequest.getCommentaries());
+		Idea idea = new Idea(increment.getIncrementId(idea_repository), ideaRequest.getTitle(), ideaRequest.getContent(), ideaRequest.getAuthor(), listaTags, 0, new ArrayList<Commentary>());
 		Collaborator c = collaborator_repository.findBy_id(idea.getAuthor());
 		ArrayList<Idea> list = c.getPublishedIdeas();
 		list.add(idea);
@@ -90,7 +90,7 @@ public class IdeaController {
 		return ideasSearched;
 	}
 
-	@RequestMapping(value = "/comment/{idea}", method = RequestMethod.POST)
+	@RequestMapping(value = "/{idea}/comment", method = RequestMethod.POST)
 	@CrossOrigin(origins = "http://localhost:4200")
 	public void createCommentary(@Valid @RequestBody CommentaryRequest commentaryRequest, @Valid @PathVariable("idea") String idea){
 
