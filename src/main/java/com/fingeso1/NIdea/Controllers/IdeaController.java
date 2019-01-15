@@ -7,6 +7,8 @@ import com.fingeso1.NIdea.Repositories.IdeaRepository;
 import com.fingeso1.NIdea.Repositories.CollaboratorRepository;
 
 import java.util.*;
+import java.io.*;
+import java.text.*;
 import java.text.Normalizer;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,9 +36,9 @@ public class IdeaController {
 	public void createIdea(@Valid @RequestBody IdeaRequest ideaRequest){
 
 		IncrementId increment = new IncrementId();
-
+		SimpleDateFormat format = new SimpleDateFormat("dd-MM-yyyy hh:mm");
 		ArrayList<String> listaTags = new ArrayList<String>(Arrays.asList(ideaRequest.getTags().split(",")));
-		Idea idea = new Idea(increment.getIncrementId(idea_repository), ideaRequest.getTitle(), ideaRequest.getContent(), ideaRequest.getAuthor(), listaTags, 0, new ArrayList<Commentary>());
+		Idea idea = new Idea(increment.getIncrementId(idea_repository), ideaRequest.getTitle(), ideaRequest.getContent(), ideaRequest.getAuthor(), listaTags, 0, new ArrayList<Commentary>(), format.format(new Date()));
 		Collaborator c = collaborator_repository.findBy_id(idea.getAuthor());
 		ArrayList<Idea> list = c.getPublishedIdeas();
 		list.add(idea);
@@ -120,16 +122,5 @@ public class IdeaController {
 
 		return idea;
 	}
-
-
-
-
-
-
-
-
-
-
-
 
 }

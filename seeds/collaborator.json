@@ -11,6 +11,7 @@
 				"content": "Esta es la gran idea de Mellado",
 				"title": "Título de la idea",
 				"likes": 10,
+				"creationDate": "10-11-2012 23:50",
 				"author": "1",
 				"tags": [
 					"Robótica",
@@ -32,6 +33,7 @@
 				"content": "Esta es la segunda gran idea de Mellado",
 				"title": "Título de la idea",
 				"likes": 10,
+				"creationDate": "10-11-2012 23:50",
 				"author": "1",
 				"tags": [
 					"Robótica",
@@ -46,6 +48,7 @@
 				"content": "Esta es la tercera gran idea de Mellado",
 				"title": "Título de la idea",
 				"likes": 10,
+				"creationDate": "10-11-2012 23:50",
 				"author": "1",
 				"tags": [
 					"Robótica",
@@ -95,6 +98,7 @@
 				"content": "Esta es la gran idea de Amigo",
 				"title": "Título de la idea",
 				"likes": 10,
+				"creationDate": "10-11-2012 23:50",
 				"author": "2",
 				"tags": [
 					"Robótica",
@@ -122,6 +126,7 @@
 				"content": "Esta es la gran idea de Gaete",
 				"title": "Título de la idea",
 				"likes": 10,
+				"creationDate": "10-11-2012 23:50",
 				"author": "3",
 				"tags": [
 					
