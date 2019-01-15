@@ -18,9 +18,6 @@ public class CollaboratorRequest {
   // public Date registerDate;
   public String email;
 
-  public String getPassword() {
-    return password;
-  }
 
   public String password;
   // public String phone;
@@ -41,18 +38,22 @@ public class CollaboratorRequest {
 
 
   public String get_id() {
-  	return _id; 
+    return _id; 
   }
   
   public String getName() { 
-  	return this.name; 
+    return this.name; 
   }
   
   public String getLastname() { 
-  	return this.lastname; 
+    return this.lastname; 
   }
   
   public String getEmail() { 
-  	return this.email; 
+    return this.email; 
+  }
+
+  public String getPassword() {
+    return password;
   }
 }

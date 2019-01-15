@@ -19,6 +19,7 @@ public class Collaborator implements Model {
   public String email;
 
   private String password;
+  private List<String> likedIdeas;
   // private String phone;
   // private String adress;
   // private int approvedIdeas;
@@ -38,14 +39,15 @@ public class Collaborator implements Model {
     }
 
     // Constructors
-  public Collaborator(String _id, String name, String lastname, String email, String password, ArrayList<Idea> publishedIdeas, ArrayList<Desafio> publishedDesafios) {
+  public Collaborator(String _id, String name, String lastname, String email, String password, ArrayList<Idea> publishedIdeas, ArrayList<Desafio> publishedDesafios, List<String> likedIdeas) {
     this._id = _id;
     this.name = name;
     this.lastname = lastname;
     this.email = email;
     this.password = password;
     this.publishedIdeas = publishedIdeas;
-    this.publishedDesafios=publishedDesafios;
+    this.publishedDesafios = publishedDesafios;
+    this.likedIdeas = likedIdeas;
   }
 
     public String get_id() {
@@ -84,13 +86,25 @@ public class Collaborator implements Model {
     this.publishedIdeas = publishedIdeas;
   }
 
-    public ArrayList<Desafio> getPublishedDesafios(){ return this.publishedDesafios; }
+  public ArrayList<Desafio> getPublishedDesafios(){ 
+    return this.publishedDesafios; 
+  }
 
-    public void setPublishedDesafios(ArrayList<Desafio> desafios){
-        this.publishedDesafios = publishedDesafios;
-    }
+  public void setPublishedDesafios(ArrayList<Desafio> desafios){
+    this.publishedDesafios = publishedDesafios;
+  }
 
-    public void addDesafio(Desafio desafio){this.publishedDesafios.add(desafio); }
+  public List<String> getLikedIdeas(){
+    return this.likedIdeas;
+  }
+
+  public void setLikedIdeas(List<String> likedIdeas){
+    this.likedIdeas = likedIdeas;
+  }
+
+  public void addDesafio(Desafio desafio){
+    this.publishedDesafios.add(desafio); 
+  }
 
   public void addIdea(Idea idea){
     this.publishedIdeas.add(idea);

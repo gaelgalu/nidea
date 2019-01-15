@@ -1,31 +1,26 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import {VistaListComponent} from "./vista-list/vista-list.component";
-import {IdeaListComponent} from "./idea-list/idea-list.component";
-import {CollaboratorListComponent} from "./collaborator-list/collaborator-list.component";
-import {AddIdeaComponent} from "./add-idea/add-idea.component";
+import { FullComponent } from './layouts/full/full.component';
 
-const routes: Routes = [
+export const Approutes: Routes = [
   {
-    path: 'vista',
-    component: VistaListComponent,
+    path: '',
+    component: FullComponent,
+    children: [
+      { path: '', redirectTo: '/starter', pathMatch: 'full' },
+      {
+        path: 'starter',
+        loadChildren: './starter/starter.module#StarterModule'
+      },
+      {
+        path: 'component',
+        loadChildren: './component/component.module#ComponentsModule'
+      }
+    ]
   },
   {
-    path: 'agregarIdea',
-    component: AddIdeaComponent
-  },
-  {
-    path: 'colaboradores',
-    component: CollaboratorListComponent
-  },
-  {
-    path: '**', redirectTo: ''
+    path: '**',
+    redirectTo: '/starter'
   }
 ];
-
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
-})
-export class AppRoutingModule { }

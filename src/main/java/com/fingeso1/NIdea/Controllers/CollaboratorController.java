@@ -37,7 +37,7 @@ public class CollaboratorController {
 	public Collaborator createCollaborator(@RequestBody CollaboratorRequest collaboratorRequest){
 		IncrementId increment = new IncrementId();
 
-		Collaborator collaborator = new Collaborator(increment.getIncrementId(collaborator_repository), collaboratorRequest.getName(), collaboratorRequest.getLastname(), collaboratorRequest.getEmail(),collaboratorRequest.getPassword(), new ArrayList<Idea>(), new ArrayList<Desafio>());
+		Collaborator collaborator = new Collaborator(increment.getIncrementId(collaborator_repository), collaboratorRequest.getName(), collaboratorRequest.getLastname(), collaboratorRequest.getEmail(),collaboratorRequest.getPassword(), new ArrayList<Idea>(), new ArrayList<Desafio>(), new ArrayList<String>());
 
 		// collaborator.setPublishedIdeas(new ArrayList<Idea>());
 		// collaborator.set_id(increment.getIncrementId(collaborator_repository));

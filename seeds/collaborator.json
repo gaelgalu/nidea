@@ -1,7 +1,7 @@
 [
 	{
 		"_id": "1",
-		"name": "José",
+		"name": "Joseeee",
 		"lastname": "Mellado",
 		"email": "jose.mellado@usach.cl",
 		"publishedIdeas": 
@@ -10,6 +10,7 @@
 				"_id": "1",
 				"content": "Esta es la gran idea de Mellado",
 				"title": "Título de la idea",
+				"likes": 10,
 				"author": "1",
 				"tags": [
 					"Robótica",
@@ -30,6 +31,7 @@
 				"_id": "4",
 				"content": "Esta es la segunda gran idea de Mellado",
 				"title": "Título de la idea",
+				"likes": 10,
 				"author": "1",
 				"tags": [
 					"Robótica",
@@ -43,6 +45,7 @@
 				"_id": "5",
 				"content": "Esta es la tercera gran idea de Mellado",
 				"title": "Título de la idea",
+				"likes": 10,
 				"author": "1",
 				"tags": [
 					"Robótica",
@@ -72,6 +75,11 @@
 				"idea": "1",
 				"author": "1"
 			}
+		],
+		"likedIdeas" : [
+			"1",
+			"4",
+			"5"
 		]
 	},
 
@@ -86,6 +94,7 @@
 				"_id": "2",
 				"content": "Esta es la gran idea de Amigo",
 				"title": "Título de la idea",
+				"likes": 10,
 				"author": "2",
 				"tags": [
 					"Robótica",
@@ -95,7 +104,16 @@
 				"publishedCommentaries": []
 			}
 		],
+<<<<<<< HEAD
 		"publishedDesafios": []
+=======
+		"publishedDesafios" : [
+
+		],
+		"likedIdeas" : [
+
+		]
+>>>>>>> 4520fb8461e455f6d040ddc82373145ea4959ad5
 	},
 
 	{
@@ -109,6 +127,7 @@
 				"_id": "3",
 				"content": "Esta es la gran idea de Gaete",
 				"title": "Título de la idea",
+				"likes": 10,
 				"author": "3",
 				"tags": [
 					
@@ -116,6 +135,15 @@
 				"publishedCommentaries": []
 			}
 		],
+<<<<<<< HEAD
 		"publishedDesafios": []
+=======
+		"publishedDesafios" : [
+
+		],
+		"likedIdeas" : [
+
+		]
+>>>>>>> 4520fb8461e455f6d040ddc82373145ea4959ad5
 	}
 ]
