@@ -1,4 +1,14 @@
+<<<<<<< HEAD
 com/fingeso1/NIdea/Models/DesafioRequest.class
 com/fingeso1/NIdea/Models/Desafio.class
 com/fingeso1/NIdea/Controllers/DesafioController.class
 com/fingeso1/NIdea/Repositories/DesafioRepository.class
+=======
+com\fingeso1\NIdea\Models\DesafioRequest.class
+com\fingeso1\NIdea\Models\Desafio.class
+com\fingeso1\NIdea\Repositories\DesafioRepository.class
+com\fingeso1\NIdea\Utils\IncrementId.class
+com\fingeso1\NIdea\Models\CollaboratorRequest.class
+com\fingeso1\NIdea\Models\Model.class
+com\fingeso1\NIdea\Controllers\DesafioController.class
+>>>>>>> 063db2ead5f791a61e5d2a50866d597840dd3e40
