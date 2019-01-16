@@ -26,8 +26,8 @@ export default class IdeaService {
     return this.http.get('localhost:8090/ideas/search',{params: {title:title}});
   }
 
-  addIdea(idea: Idea): Observable<any>{
-    return this.http.post<Idea>('localhost:8090/ideas/create', idea);
+  public addIdea(idea: Idea): Observable<any>{
+    return this.http.post<Idea>('http://localhost:8090/ideas/create', idea);
   }
 
   addComment(comment: Comment){

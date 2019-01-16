@@ -1,6 +1,6 @@
 export default class Idea{
   title: string;
   content: string;
-  tag: string;
+  tags: string;
   author: string;
 }

@@ -17,6 +17,7 @@ import javax.validation.Valid;
 
 @RestController
 @RequestMapping(value = "/ideas")
+@CrossOrigin(origins = "*")
 public class IdeaController {
 	@Autowired
 	private IdeaRepository idea_repository;
@@ -32,8 +33,8 @@ public class IdeaController {
   	}
 
 	@RequestMapping(value = "/create", method = RequestMethod.POST)
-	@CrossOrigin(origins = "http://localhost:4200")
-	public void createIdea(@Valid @RequestBody IdeaRequest ideaRequest){
+	@CrossOrigin(origins = "*")
+	public Idea createIdea(@Valid @RequestBody IdeaRequest ideaRequest){
 
 		IncrementId increment = new IncrementId();
 		SimpleDateFormat format = new SimpleDateFormat("dd-MM-yyyy hh:mm");
@@ -44,11 +45,11 @@ public class IdeaController {
 		list.add(idea);
 		c.setPublishedIdeas(list);
 		collaborator_repository.save(c);
-		idea_repository.save(idea);
+		return idea_repository.save(idea);
 	}
 
 	@RequestMapping(value = "/filter", method = RequestMethod.POST)
-	@CrossOrigin(origins = "http://localhost:4200")
+	@CrossOrigin(origins = "*")
 	public List<Idea> filterIdea(@Valid @RequestParam("tag") String tag){
 		List<Idea> ideas = idea_repository.findAll();
 		List<Idea> filteredIdeas = new ArrayList<Idea>();
@@ -72,7 +73,7 @@ public class IdeaController {
 	}
 
 	@RequestMapping(value = "/search", method = RequestMethod.POST)
-	@CrossOrigin(origins = "http://localhost:4200")
+	@CrossOrigin(origins = "*")
 	public List<Idea> searchTitleIdea(@Valid @RequestParam("title") String title){
 		List<Idea> ideas = idea_repository.findAll();
 		List<Idea> ideasSearched = new ArrayList<Idea>();
@@ -93,7 +94,7 @@ public class IdeaController {
 	}
 
 	@RequestMapping(value = "/comment", method = RequestMethod.POST)
-	@CrossOrigin(origins = "http://localhost:4200")
+	@CrossOrigin(origins = "*")
 	public void createCommentary(@Valid @RequestBody CommentaryRequest commentaryRequest){
 
 		IncrementId increment = new IncrementId();
@@ -110,7 +111,7 @@ public class IdeaController {
 	}
 	@RequestMapping(value = "/{_id}", method = RequestMethod.GET)
 	@ResponseBody
-	@CrossOrigin(origins = "http://localhost:4200")
+	@CrossOrigin(origins = "*")
 	public Idea searchIdea(@PathVariable("_id") String _id){
 		return idea_repository.findBy_id(_id);
 	}

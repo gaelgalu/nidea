@@ -19,16 +19,24 @@ export class StarterComponent implements AfterViewInit {
   }
 
   ngOnInit() {
-  	this.ideaService.getAll().subscribe(ideas => {
-  		this.ideas = ideas
-  	});
+  	this.getIdeas();
   }
 
-  ngAfterViewInit() {}
+  getIdeas() {
+	this.ideaService.getAll().subscribe(ideas => {
+		this.ideas = ideas
+	});
+  }
+
 
   save() {
   	this.ideaService.addIdea(this.idea).subscribe((result) => {
-  		alert(result);
+  		if (result._id) {
+  			this.getIdeas();
+  			alert("Creado con exito");
+  		} else {
+  			alert("Error");
+  		}
   	});
   }
 }
