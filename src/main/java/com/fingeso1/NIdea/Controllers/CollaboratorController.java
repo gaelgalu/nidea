@@ -28,6 +28,7 @@ public class CollaboratorController {
   	}
 
 	@RequestMapping(value = "/{_id}", method = RequestMethod.GET)
+	@CrossOrigin(origins= "http://localhost:4200")
 	public Collaborator getCollaboratorById(@PathVariable("_id") String _id) {
   		return collaborator_repository.findBy_id(_id);
 	}

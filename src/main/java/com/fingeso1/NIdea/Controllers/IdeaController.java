@@ -92,23 +92,22 @@ public class IdeaController {
 		return ideasSearched;
 	}
 
-	@RequestMapping(value = "/{idea}/comment", method = RequestMethod.POST)
+	@RequestMapping(value = "/comment", method = RequestMethod.POST)
 	@CrossOrigin(origins = "http://localhost:4200")
-	public void createCommentary(@Valid @RequestBody CommentaryRequest commentaryRequest, @Valid @PathVariable("idea") String idea){
+	public void createCommentary(@Valid @RequestBody CommentaryRequest commentaryRequest){
 
 		IncrementId increment = new IncrementId();
-		Commentary commentary = new Commentary(increment.getIncrementId(commentary_repository), commentaryRequest.getBody(), idea, commentaryRequest.getAuthor());
-		Collaborator c = collaborator_repository.findBy_id(commentary.getAuthor());
-		Idea i =idea_repository.findBy_id(idea);
+		Commentary commentary = new Commentary(increment.getIncrementId(commentary_repository), commentaryRequest.getBody(), commentaryRequest.getAuthor(), commentaryRequest.getIdea());
+		Idea i =idea_repository.findBy_id(commentary.getIdea());
 		ArrayList<Commentary> list2 = i.getPublishedCommentaries();
 		list2.add(commentary);
 		i.setPublishedCommentaries(list2);
-		collaborator_repository.save(c);
 		idea_repository.save(i);
 		commentary_repository.save(commentary);
 	}
 	@RequestMapping(value = "/{_id}", method = RequestMethod.GET)
 	@ResponseBody
+	@CrossOrigin(origins = "http://localhost:4200")
 	public Idea searchIdea(@PathVariable("_id") String _id){
 		return idea_repository.findBy_id(_id);
 	}

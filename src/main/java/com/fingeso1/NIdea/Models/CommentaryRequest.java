@@ -9,9 +9,10 @@ public class CommentaryRequest {
     private String idea;
     private String author;
     //Constructor
-    public CommentaryRequest(String body, String author){
+    public CommentaryRequest(String body, String author, String idea){
         this.author=author;
         this.body=body;
+        this.idea=idea;
     }
 
     public String get_id() { return _id; }

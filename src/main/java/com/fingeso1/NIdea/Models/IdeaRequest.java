@@ -8,18 +8,15 @@ public class IdeaRequest {
     private String content;
     private String tags;
     private String author;
-    private ArrayList<Commentary> publishedCommentaries;
     @Id
     private String _id;
-    public IdeaRequest(String title, String content, String tags, String author, ArrayList<Commentary> publishedCommentaries) {
+    public IdeaRequest(String title, String content, String tags, String author) {
         this.title = title;
         this.content = content;
         this.tags = tags;
         this.author = author;
-        this.publishedCommentaries= publishedCommentaries;
     }
 
-    public ArrayList<Commentary> getCommentaries() { return publishedCommentaries; }
 
     public String get_id() {
         return _id;

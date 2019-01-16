@@ -46,11 +46,11 @@ export const ComponentsRoutes: Routes = [
         path: 'accordion',
         component: NgbdAccordionBasicComponent,
         data: {
-          title: 'Accordion',
+          title: 'Desafios',
           urls: [
             { title: 'Dashboard', url: '/dashboard' },
             { title: 'ngComponent' },
-            { title: 'Accordion' }
+            { title: 'Desafios' }
           ]
         }
       },

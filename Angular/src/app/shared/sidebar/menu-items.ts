@@ -3,7 +3,7 @@ import { RouteInfo } from './sidebar.metadata';
 export const ROUTES: RouteInfo[] = [
   {
     path: '',
-    title: 'Personal',
+    title: 'Menú',
     icon: 'mdi mdi-dots-horizontal',
     class: 'nav-small-cap',
     extralink: true,
@@ -18,6 +18,14 @@ export const ROUTES: RouteInfo[] = [
     submenu: []
   },
   {
+    path: '/component/accordion',
+    title: 'Desafios',
+    icon: 'mdi mdi-equal',
+    class: '',
+    extralink: false,
+    submenu: []
+  },
+  {
     path: '',
     title: 'UI Components',
     icon: 'mdi mdi-dots-horizontal',
@@ -25,14 +33,7 @@ export const ROUTES: RouteInfo[] = [
     extralink: true,
     submenu: []
   },
-  {
-    path: '/component/accordion',
-    title: 'Accordion',
-    icon: 'mdi mdi-equal',
-    class: '',
-    extralink: false,
-    submenu: []
-  },
+
   {
     path: '/component/alert',
     title: 'Alert',

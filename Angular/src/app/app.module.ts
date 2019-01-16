@@ -22,6 +22,7 @@ import { BreadcrumbComponent } from './shared/breadcrumb/breadcrumb.component';
 import { Approutes } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SpinnerComponent } from './shared/spinner.component';
+import { IdeaComponent } from './idea/idea.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { SpinnerComponent } from './shared/spinner.component';
     FullComponent,
     NavigationComponent,
     BreadcrumbComponent,
-    SidebarComponent
+    SidebarComponent,
+    IdeaComponent
   ],
   imports: [
     CommonModule,
