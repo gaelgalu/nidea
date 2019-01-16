@@ -97,13 +97,16 @@ public class IdeaController {
 	public void createCommentary(@Valid @RequestBody CommentaryRequest commentaryRequest){
 
 		IncrementId increment = new IncrementId();
-		Commentary commentary = new Commentary(increment.getIncrementId(commentary_repository), commentaryRequest.getBody(), commentaryRequest.getAuthor(), commentaryRequest.getIdea());
+		Commentary commentary = new Commentary(increment.getIncrementId(commentary_repository), commentaryRequest.getBody(), commentaryRequest.getIdea(), commentaryRequest.getAuthor());
 		Idea i =idea_repository.findBy_id(commentary.getIdea());
+		Collaborator c = collaborator_repository.findBy_id(i.getAuthor());
 		ArrayList<Commentary> list2 = i.getPublishedCommentaries();
 		list2.add(commentary);
 		i.setPublishedCommentaries(list2);
+		c.updateIdea(i);
 		idea_repository.save(i);
 		commentary_repository.save(commentary);
+		collaborator_repository.save(c);
 	}
 	@RequestMapping(value = "/{_id}", method = RequestMethod.GET)
 	@ResponseBody

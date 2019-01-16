@@ -110,4 +110,15 @@ public class Collaborator implements Model {
     this.publishedIdeas.add(idea);
   }
 
+  public void updateIdea(Idea idea){
+        String idActual;
+        String idIdea = idea.get_id();
+      for (int i = 0; i <  publishedIdeas.size(); i++) {
+          idActual = publishedIdeas.get(i).get_id();
+          if(idActual == idIdea){
+              publishedIdeas.set(i, idea);
+          }
+      }
+  }
+
 }
