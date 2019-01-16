@@ -1,5 +1,5 @@
 <html>
-<!--   <div class="row">
+<!-- <div class="row">
     <div class="col-12">
       <div class="card">
         <div class="card-body">
@@ -25,32 +25,51 @@
 </div> -->
 
 <h1>Crear idea</h1>
-<form (ngSubmit)="save()" #ideaForm="ngForm">
-  <div>
-    <label>title</label>
-    <input type="text" name="title" [(ngModel)]="idea.title">
-  </div>
-  <div>
-    <label>content</label>
-    <input type="text" name="content" [(ngModel)]="idea.content">
-  </div>
-  <div>
-    <label>tags</label>
-    <input type="text" name="tags" [(ngModel)]="idea.tags">
-  </div>
-  <div>
-    <label>author</label>
-    <input type="text" name="author" [(ngModel)]="idea.author">
+  <div class="row">
+    <div class="col-12">
+      <div class="card">
+        <div class="card-body">
+          <form (ngSubmit)="save()" #ideaForm="ngForm">
+            <div>
+              <label>title</label>
+              <input type="text" name="title" [(ngModel)]="idea.title">
+            </div>
+            <div>
+              <label>content</label>
+              <input type="text" name="content" [(ngModel)]="idea.content">
+            </div>
+            <div>
+              <label>tags</label>
+              <input type="text" name="tags" [(ngModel)]="idea.tags">
+            </div>
+            <div>
+              <label>author</label>
+              <input type="text" name="author" [(ngModel)]="idea.author">
+            </div>
+
+            <button type="submit">
+              Agregar
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <button type="submit">
-    Agregar
-  </button>
-</form>
 
 <h1>Listado de ideas</h1>
 <div *ngFor="let idea of ideas">
-  <h2>{{ idea.title }}</h2>
-  <p>{{ idea.content }}</p>
+  <div class="row">
+    <div class="col-12">
+      <div class="card">
+        <div class="card-body">
+          <h2> {{idea.title}} </h2>
+          <p> {{idea.content}} </p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--   <h2>{{ idea.title }}</h2>
+  <p>{{ idea.content }}</p> -->
 </div>
 </html>
