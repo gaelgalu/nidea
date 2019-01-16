@@ -1,7 +1,0 @@
-com\fingeso1\NIdea\Models\DesafioRequest.class
-com\fingeso1\NIdea\Models\Desafio.class
-com\fingeso1\NIdea\Repositories\DesafioRepository.class
-com\fingeso1\NIdea\Models\CommentaryRequest.class
-com\fingeso1\NIdea\Repositories\CommentaryRepository.class
-com\fingeso1\NIdea\Models\Commentary.class
-com\fingeso1\NIdea\Controllers\DesafioController.class

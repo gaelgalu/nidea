@@ -1,5 +1,5 @@
 <html>
-  <div class="row">
+<!--   <div class="row">
     <div class="col-12">
       <div class="card">
         <div class="card-body">
@@ -16,13 +16,41 @@
        <h6 size="90%">Creado por Diego Amigo - 00:29 16-01-2019</h6>
        <h4>Descripcion de la idea de Diego</h4>
        <p> Tags: Robótica</p>
-       <a href="https://www.google.cl/">
+       <a href="#/idea">
           <button>Comentarios</button>
        </a>
      </div>
    </div>
  </div>
+</div> -->
 
+<h1>Crear idea</h1>
+<form (ngSubmit)="save()" #ideaForm="ngForm">
+  <div>
+    <label>title</label>
+    <input type="text" name="title" [(ngModel)]="idea.title">
+  </div>
+  <div>
+    <label>content</label>
+    <input type="text" name="content" [(ngModel)]="idea.content">
+  </div>
+  <div>
+    <label>tag</label>
+    <input type="text" name="tag" [(ngModel)]="idea.tag">
+  </div>
+  <div>
+    <label>author</label>
+    <input type="text" name="author" [(ngModel)]="idea.author">
+  </div>
 
+  <button type="submit">
+    Agregar
+  </button>
+</form>
+
+<h1>Listado de ideas</h1>
+<div *ngFor="let idea of ideas">
+  <h2>{{ idea.title }}</h2>
+  <p>{{ idea.content }}</p>
 </div>
 </html>
