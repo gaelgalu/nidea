@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import {Observable} from "rxjs";
-import {HttpClient} from "@angular/common/http";
+import {HttpClient, HttpHeaders, HttpParams} from "@angular/common/http";
 import Desafio from "../models/desafio.model";
 
 @Injectable({
@@ -15,11 +15,18 @@ export default class DesafioService {
   }
 
   searchByTag(tag:string): Observable<any>{
-  	return this.http.post<string>('localhost:8090/desafios/filter', {params: {tag:tag}});
+  	return this.http.post('localhost:8090/desafios/filter', {params: {tag:tag}});
   }
 
   searchByTitle(title: string): Observable<any>{
-    return this.http.post<string>('localhost:8090/desafios/search', {params: {title:title}});
+    const body = new HttpParams()
+    .set('title', title);
+
+    return this.http.post<string>('http://localhost:8090/desafios/search', body.toString(),
+      {
+        headers: new HttpHeaders()
+        .set('Content-Type', 'application/x-www-form-urlencoded')
+      });
   }
 
   addDesafio(desafio: Desafio): Observable<any>{

@@ -37,4 +37,11 @@ export class DesafioComponent implements OnInit {
   		}
   	});
   }
+
+  searchByTitle(title) {
+    this.desafioService.searchByTitle(title.title).subscribe(desafios => {
+      this.desafios = desafios
+    });
+    console.log(title.title);
+  }
 }
