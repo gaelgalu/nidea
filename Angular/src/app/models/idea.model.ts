@@ -3,4 +3,5 @@ export default class Idea{
   content: string;
   tags: string;
   author: string;
+  creationDate: string;
 }
