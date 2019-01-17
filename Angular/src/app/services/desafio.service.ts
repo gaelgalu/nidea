@@ -11,11 +11,11 @@ export default class DesafioService {
   constructor(private http: HttpClient) { }
 
   getAll(): Observable<any>{
-  	return this.http.get('//localhost:8090/desafios');
+  	return this.http.get('/api/desafios');
   }
 
   searchByTag(tag:string): Observable<any>{
-  	return this.http.post('localhost:8090/desafios/filter', {params: {tag:tag}});
+  	return this.http.post('/api/desafios/filter', {params: {tag:tag}});
   }
 
   searchByTitle(title: string): Observable<any>{

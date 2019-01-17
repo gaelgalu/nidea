@@ -14,6 +14,7 @@ import javax.validation.Valid;
 
 @RestController
 @RequestMapping(value = "/collaborators")
+@CrossOrigin(origins = "*")
 public class CollaboratorController {
 	@Autowired
 	private CollaboratorRepository collaborator_repository;
@@ -28,7 +29,8 @@ public class CollaboratorController {
   	}
 
 	@RequestMapping(value = "/{_id}", method = RequestMethod.GET)
-	@CrossOrigin(origins= "http://localhost:4200")
+	@ResponseBody
+	@CrossOrigin(origins= "*")
 	public Collaborator getCollaboratorById(@PathVariable("_id") String _id) {
   		return collaborator_repository.findBy_id(_id);
 	}

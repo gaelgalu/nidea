@@ -1,0 +1,12 @@
+{
+  "/api/*" : {
+    "target":{
+      "host" : "localhost",
+      "protocol": "https",
+      "port" : "8090"
+    },
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {"^/api" : ""}
+  }
+}

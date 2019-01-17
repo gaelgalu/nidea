@@ -34,23 +34,7 @@
 
 <h1>Listado de ideas</h1>
 <div *ngFor="let idea of ideas">
-  <div class="row">
-    <div class="col-12">
-      <div class="card">
-        <div class="card-body">
-          <h2> {{idea.title}} </h2>
-          <h6 size="90%">Created by {{idea.author}}</h6>
-          <p> {{idea.content}} </p>
-          <br>
-          <p>Tags {{idea.tags}}</p>
-          <br>
-          <a href="#/idea">
-            <button>Commentaries</button>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
+  <app-idea-body [ideaInput]=idea ></app-idea-body>
 <!--   <h2>{{ idea.title }}</h2>
   <p>{{ idea.content }}</p> -->
 </div>
