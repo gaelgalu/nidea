@@ -5,4 +5,5 @@ export default class Idea{
   tags: string;
   author: string;
   creationDate: string;
+  publishedCommentaries: Comment[];
 }

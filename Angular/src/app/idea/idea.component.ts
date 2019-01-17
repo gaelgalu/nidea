@@ -4,25 +4,25 @@ import IdeaService from '../services/idea.service';
 import Idea from '../models/idea.model';
 import {ActivatedRoute} from "@angular/router";
 import {Observable} from "rxjs";
+import {CollaboratorService} from "../services/collaborator.service";
+import Collaborator from "../models/collaborator.model";
 @Component({
   templateUrl: 'idea.component.html'
 })
 
 export class IdeaComponent implements AfterViewInit{
   idea: Idea;
-  ideas : Idea[];
-  idea2: Idea;
   _id: string;
+  collaborator: Collaborator;
   ngOnInit(){
-    this.obtenerIdea(this._id);
   }
-  constructor(private route: ActivatedRoute, private ideaService: IdeaService){
-    this._id= this.route.snapshot.paramMap.get('id');
-    this.idea2 = new Idea();
+  constructor(private route: ActivatedRoute, private ideaService: IdeaService, private collaboratorService: CollaboratorService){
+    this.obtenerIdea(this.route.snapshot.paramMap.get('id'));
   }
   obtenerIdea(id: string){
-    this.ideaService.searchIdea(id).subscribe(idea2=>{
-      this.idea2 = idea2
+    this.ideaService.searchIdea(id).subscribe(idea=>{
+      this.idea = idea;
+      this.getCollaborators();
     });
   }
   beforeChange($event: NgbPanelChangeEvent) {
@@ -34,6 +34,13 @@ export class IdeaComponent implements AfterViewInit{
       $event.preventDefault();
     }
   }
+
+  getCollaborators() {
+    this.collaboratorService.getById(this.idea.author).subscribe(collaborator => {
+      this.collaborator = collaborator;
+    });
+  }
+
   ngAfterViewInit(){
 
   }
