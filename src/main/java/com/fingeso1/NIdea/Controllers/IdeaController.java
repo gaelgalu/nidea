@@ -25,6 +25,7 @@ public class IdeaController {
 	private CollaboratorRepository collaborator_repository;
 	@Autowired
 	private CommentaryRepository commentary_repository;
+
 	@RequestMapping(method = RequestMethod.GET)
 	@ResponseBody
 	@CrossOrigin(origins = "http://localhost:4200")
@@ -98,7 +99,9 @@ public class IdeaController {
 	public void createCommentary(@Valid @RequestBody CommentaryRequest commentaryRequest){
 
 		IncrementId increment = new IncrementId();
-		Commentary commentary = new Commentary(increment.getIncrementId(commentary_repository), commentaryRequest.getBody(), commentaryRequest.getIdea(), commentaryRequest.getAuthor());
+		SimpleDateFormat format = new SimpleDateFormat("dd-MM-yyyy hh:mm");
+
+		Commentary commentary = new Commentary(increment.getIncrementId(commentary_repository), commentaryRequest.getBody(), commentaryRequest.getIdea(), commentaryRequest.getAuthor(), format.format(new Date()));
 		Idea i =idea_repository.findBy_id(commentary.getIdea());
 		Collaborator c = collaborator_repository.findBy_id(i.getAuthor());
 		ArrayList<Commentary> list2 = i.getPublishedCommentaries();
