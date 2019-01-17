@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import {Observable} from "rxjs";
-import {HttpClient} from "@angular/common/http";
+import {HttpClient, HttpHeaderResponse, HttpHeaders, HttpParams} from "@angular/common/http";
 import Idea from "../models/idea.model";
 
 @Injectable({
@@ -14,8 +14,8 @@ export default class IdeaService {
     return this.http.get('//localhost:8090/ideas');
   }
 
-  getById(id: string): Observable<any>{
-    return this.http.get('localhost:8090/ideas/',{params: {id:id}});
+  searchIdea(id: string): Observable<any>{
+    return this.http.get('http://localhost:8090/ideas/'+id);
   }
 
   searchByTag(tag: string): Observable<any>{

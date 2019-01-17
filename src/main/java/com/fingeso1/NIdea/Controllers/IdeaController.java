@@ -109,6 +109,9 @@ public class IdeaController {
 		commentary_repository.save(commentary);
 		collaborator_repository.save(c);
 	}
+
+
+
 	@RequestMapping(value = "/{_id}", method = RequestMethod.GET)
 	@ResponseBody
 	@CrossOrigin(origins = "*")
