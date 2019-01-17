@@ -20,7 +20,7 @@ export const Approutes: Routes = [
         loadChildren: './component/component.module#ComponentsModule'
       },
       { 
-        path: 'idea', 
+        path: 'idea/:id',
         component: IdeaComponent
       },
       {
