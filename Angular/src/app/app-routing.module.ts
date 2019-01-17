@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { IdeaComponent} from './idea/idea.component';
+import { DesafioComponent} from './desafio/desafio.component';
 import { FullComponent } from './layouts/full/full.component';
 
 export const Approutes: Routes = [
@@ -21,6 +22,10 @@ export const Approutes: Routes = [
       { 
         path: 'idea', 
         component: IdeaComponent
+      },
+      {
+        path: 'desafios',
+        component: DesafioComponent
       }
     ]
   }

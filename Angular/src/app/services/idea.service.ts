@@ -19,14 +19,14 @@ export default class IdeaService {
   }
 
   searchByTag(tag: string): Observable<any>{
-    return this.http.get('localhost:8090/ideas/filter',{params: {tag:tag}});
+    return this.http.post<string>('localhost:8090/ideas/filter',{params: {tag:tag}});
   }
 
   searchByTitle(title: string): Observable<any>{
-    return this.http.get('localhost:8090/ideas/search',{params: {title:title}});
+    return this.http.post<string>('localhost:8090/ideas/search',{params: {title:title}});
   }
 
-  public addIdea(idea: Idea): Observable<any>{
+  addIdea(idea: Idea): Observable<any>{
     return this.http.post<Idea>('http://localhost:8090/ideas/create', idea);
   }
 

@@ -18,7 +18,7 @@ export const ROUTES: RouteInfo[] = [
     submenu: []
   },
   {
-    path: '/component/accordion',
+    path: '/desafios',
     title: 'Desafios',
     icon: 'mdi mdi-equal',
     class: '',
