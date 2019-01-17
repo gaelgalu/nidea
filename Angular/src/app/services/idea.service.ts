@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import {Observable} from "rxjs";
 import {HttpClient, HttpHeaderResponse, HttpHeaders, HttpParams} from "@angular/common/http";
 import Idea from "../models/idea.model";
-
+import {Comment} from "../models/comment.model";
 @Injectable({
   providedIn: 'root'
 })
@@ -30,7 +30,7 @@ export default class IdeaService {
     return this.http.post<Idea>('/api/ideas/create', idea);
   }
 
-  addComment(comment: Comment){
-    this.http.post<Comment>('/api/ideas/comment',comment);
+  addComment(comment: Comment): Observable<any>{
+    return this.http.post<Comment>('/api/ideas/comment',comment);
   }
 }

@@ -6,6 +6,7 @@ import {ActivatedRoute} from "@angular/router";
 import {Observable} from "rxjs";
 import {CollaboratorService} from "../services/collaborator.service";
 import Collaborator from "../models/collaborator.model";
+import {Comment} from "../models/comment.model";
 @Component({
   templateUrl: 'idea.component.html'
 })
@@ -14,10 +15,12 @@ export class IdeaComponent implements AfterViewInit{
   idea: Idea;
   _id: string;
   collaborator: Collaborator;
+  comment: Comment;
   ngOnInit(){
   }
   constructor(private route: ActivatedRoute, private ideaService: IdeaService, private collaboratorService: CollaboratorService){
     this.obtenerIdea(this.route.snapshot.paramMap.get('id'));
+    this.comment = new Comment();
   }
   obtenerIdea(id: string){
     this.ideaService.searchIdea(id).subscribe(idea=>{
@@ -38,6 +41,19 @@ export class IdeaComponent implements AfterViewInit{
   getCollaborators() {
     this.collaboratorService.getById(this.idea.author).subscribe(collaborator => {
       this.collaborator = collaborator;
+    });
+  }
+
+  save() {
+    this.comment.idea = this.idea._id;
+    this.comment.author = "1";
+    this.ideaService.addComment(this.comment).subscribe((result) => {
+      if (result) {
+        alert("Creado con exito");
+        location.reload();
+      } else {
+        alert("Error");
+      }
     });
   }
 
