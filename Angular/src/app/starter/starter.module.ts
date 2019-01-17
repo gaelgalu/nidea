@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Routes, RouterModule } from '@angular/router';
 import { StarterComponent } from './starter.component';
+import {IdeaBodyComponent} from "../idea-body/idea-body.component";
 
 const routes: Routes = [
   {
@@ -29,6 +30,6 @@ const routes: Routes = [
 
 @NgModule({
   imports: [FormsModule, CommonModule, RouterModule.forChild(routes)],
-  declarations: [StarterComponent]
+  declarations: [StarterComponent, IdeaBodyComponent ]
 })
 export class StarterModule {}

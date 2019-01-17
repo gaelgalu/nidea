@@ -10,11 +10,11 @@ export class CollaboratorService {
   constructor(private http: HttpClient ) { }
 
   getAll(): Observable<any> {
-    return this.http.get('//localhost:8090/collaborators');
+    return this.http.get('/api/collaborators');
   }
 
   getById(id: string): Observable<any>{
-    return this.http.get('localhost:8090/collaborators/',{params: {id:id}});
+    return this.http.get('/api/collaborators/'+id);
   }
 
 }

@@ -17,6 +17,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(value= "/desafios")
+@CrossOrigin(origins = "*")
 public class DesafioController {
     @Autowired
     private DesafioRepository desafio_repository;
@@ -25,14 +26,14 @@ public class DesafioController {
 
     @RequestMapping(method = RequestMethod.GET)
     @ResponseBody
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "*")
     public List<Desafio> getAllDesafios() {
         return desafio_repository.findAll();
     }
 
     @RequestMapping(value = "/create", method = RequestMethod.POST)
-    @CrossOrigin(origins = "http://localhost:4200")
-    public void createDesafio(@Valid @RequestBody DesafioRequest desafioRequest){
+    @CrossOrigin(origins = "*")
+    public Desafio createDesafio(@Valid @RequestBody DesafioRequest desafioRequest){
 
         IncrementId increment = new IncrementId();
         ArrayList<String> listaTags = new ArrayList<String>(Arrays.asList(desafioRequest.getTags().split(",")));
@@ -43,11 +44,11 @@ public class DesafioController {
         list.add(desafio);
         c.setPublishedDesafios(list);
         collaborator_repository.save(c);
-        desafio_repository.save(desafio);
+        return desafio_repository.save(desafio);
     }
 
     @RequestMapping(value = "/filter", method = RequestMethod.POST)
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "*")
     public List<Desafio> filterDesafio(@Valid @RequestParam("tag") String tag){
         List<Desafio> desafios = desafio_repository.findAll();
         List<Desafio> filteredDesafios = new ArrayList<Desafio>();
@@ -71,7 +72,7 @@ public class DesafioController {
     }
 
     @RequestMapping(value = "/search", method = RequestMethod.POST)
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "*")
     public List<Desafio> searchTitleDesafio(@Valid @RequestParam("title") String title){
         List<Desafio> desafios = desafio_repository.findAll();
         List<Desafio> desafiosSearched = new ArrayList<Desafio>();

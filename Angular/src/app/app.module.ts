@@ -23,6 +23,8 @@ import { Approutes } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SpinnerComponent } from './shared/spinner.component';
 import { IdeaComponent } from './idea/idea.component';
+import { DesafioComponent } from './desafio/desafio.component';
+
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { IdeaComponent } from './idea/idea.component';
     NavigationComponent,
     BreadcrumbComponent,
     SidebarComponent,
-    IdeaComponent
+    IdeaComponent,
+    DesafioComponent
+
   ],
   imports: [
     CommonModule,
