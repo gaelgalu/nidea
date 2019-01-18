@@ -41,9 +41,16 @@ export class DesafioComponent implements OnInit {
 
   searchByTitle(title) {
     this.desafioService.searchByTitle(title.title).subscribe(desafios => {
-      this.desafios = desafios
+      this.desafios = desafios;
+      alert("Se han encontrado " + this.desafios.length + " desafíos.");
     });
-    console.log(title.title);
+  }
+
+  searchByTag(tag) {
+    this.desafioService.searchByTag(tag.tag).subscribe(desafios => {
+      this.desafios = desafios;
+      alert("Se han encontrado " + this.desafios.length + " desafíos.");
+    });
   }
 
   ngAfterViewInit(){

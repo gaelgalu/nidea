@@ -23,6 +23,7 @@ export class StarterComponent implements AfterViewInit {
 		this.ideas = ideas
 	});
   }
+
   save() {
   	this.ideaService.addIdea(this.idea).subscribe((result) => {
   		if (result._id) {
@@ -34,6 +35,19 @@ export class StarterComponent implements AfterViewInit {
   	});
   }
 
+  searchByTitle(title) {
+    this.ideaService.searchByTitle(title.title).subscribe(ideas => {
+      this.ideas = ideas;
+      alert("Se han encontrado " + this.ideas.length + " ideas.");
+    });
+  }
+
+  searchByTag(tag){
+    this.ideaService.searchByTag(tag.tag).subscribe(ideas => {
+      this.ideas = ideas;
+      alert("Se han encontrado " + this.ideas.length + " ideas.");
+    });
+  }
 
   ngAfterViewInit() {
   	

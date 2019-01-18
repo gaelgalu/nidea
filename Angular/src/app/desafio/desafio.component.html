@@ -50,7 +50,24 @@
     </div>
   </div>
 
-
+<h1>Buscar Desafío por etiqueta</h1>
+  <div class="row">
+    <div class="col-12">
+      <div class="card">
+        <div class="card-body">
+          <form (ngSubmit)="searchByTag(tagSearch.value)" #tagSearch="ngForm">
+            <div>
+              <label>Etiqueta</label>
+              <input type="text" name="tag" ngModel>
+            </div>
+            <button type="submit" value="submit">
+              Buscar
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <h1>Listado de desafíos</h1>
 <div *ngFor="let desafio of desafios">

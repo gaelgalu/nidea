@@ -15,7 +15,15 @@ export default class DesafioService {
   }
 
   searchByTag(tag:string): Observable<any>{
-  	return this.http.post('/api/desafios/filter', {params: {tag:tag}});
+    const body = new HttpParams()
+    .set('tag', tag);
+
+    return this.http.post<string>('http://localhost:8090/desafios/filter', body.toString(),
+      {
+        headers: new HttpHeaders()
+        .set('Content-Type', 'application/x-www-form-urlencoded')
+      });
+  	// return this.http.post('/api/desafios/filter', {params: {tag:tag}});
   }
 
   searchByTitle(title: string): Observable<any>{

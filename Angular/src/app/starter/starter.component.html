@@ -31,6 +31,44 @@
     </div>
   </div>
 
+<h1>Buscar Idea por título</h1>
+  <div class="row">
+    <div class="col-12">
+      <div class="card">
+        <div class="card-body">
+          <form (ngSubmit)="searchByTitle(titleSearch.value)" #titleSearch="ngForm">
+            <div>
+              <label>Title</label>
+              <input type="text" name="title" ngModel>
+            </div>
+            <button type="submit" value="submit">
+              Buscar
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<h1>Buscar Idea por etiqueta</h1>
+  <div class="row">
+    <div class="col-12">
+      <div class="card">
+        <div class="card-body">
+          <form (ngSubmit)="searchByTag(tagSearch.value)" #tagSearch="ngForm">
+            <div>
+              <label>Etiqueta</label>
+              <input type="text" name="tag" ngModel>
+            </div>
+            <button type="submit" value="submit">
+              Buscar
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
 <h1 style="color: #cb2027">Listado de ideas</h1>
 <div *ngFor="let idea of ideas">
   <app-idea-body [ideaInput]=idea ></app-idea-body>
