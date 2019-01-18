@@ -35,6 +35,6 @@ export default class IdeaService {
   }
 
   like(id: string, author: string): Observable<any>{
-    return this.http.put('/api/ideas/like'+id+author,{});
+    return this.http.post<any>('/api/ideas/like/'+id+'/'+author,{});
   }
 }

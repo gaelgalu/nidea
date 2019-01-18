@@ -117,15 +117,13 @@ public class IdeaController {
 
 
 	@RequestMapping(value = "/{_id}", method = RequestMethod.GET)
-	@ResponseBody
 	@CrossOrigin(origins = "*")
 	public Idea searchIdea(@PathVariable("_id") String _id){
 		return idea_repository.findBy_id(_id);
 	}
 
-<<<<<<< HEAD
-	@RequestMapping(value = "/like/{id}/{author}", method = RequestMethod.PUT)
-	@ResponseBody
+
+	@RequestMapping(value = "/like/{id}/{author}", method = RequestMethod.POST)
 	@CrossOrigin(origins = "*")
 	public Idea giveLike(@PathVariable("id") String id, @PathVariable("author") String author){
 		Idea idea = idea_repository.findBy_id(id);
@@ -148,19 +146,6 @@ public class IdeaController {
 			collaborator_repository.save(c);
 			return idea;
 		}
-=======
-	@RequestMapping(value = "/like/{_id}", method = RequestMethod.PUT)
-	@ResponseBody
-	public Idea giveLike(@PathVariable("_id") String _id){
-		Idea idea = idea_repository.findBy_id(_id);
-		idea.setLikes(idea.getLikes() + 1);
-		idea_repository.save(idea);
-		Collaborator collaborator= collaborator_repository.findBy_id(idea.getAuthor());
-		List<String> list2= collaborator.getLikedIdeas();
-		list2.add(idea.get_id());
-		System.out.println(list2.get(0));
-		return idea;
->>>>>>> d682e320d12c9cca3fbb6ed2328c19a71290d0e7
 	}
 
 }

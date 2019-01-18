@@ -21,10 +21,7 @@ export class IdeaComponent implements AfterViewInit{
     this.obtenerIdea(this.route.snapshot.paramMap.get('id'));
     this.comment = new Comment();
   }
-  getComment(){/*
-    while(ca<this.idea2.publishedComment.length)
-    this.comment = this.idea2.publishedComment;*/
-  }
+
   obtenerIdea(id: string){
     this.ideaService.searchIdea(id).subscribe(idea=>{
       this.idea = idea;
@@ -54,7 +51,7 @@ export class IdeaComponent implements AfterViewInit{
     this.comment.author = "1";
     this.ideaService.addComment(this.comment).subscribe((result) => {
       if (result) {
-        alert("Creado con exito");
+        alert("Comentario enviado");
         location.reload();
       } else {
         alert("Error");
@@ -63,8 +60,15 @@ export class IdeaComponent implements AfterViewInit{
   }
 
   like(){
-    this.ideaService.like(this.idea._id, "1");
-    location.reload();
+    this.ideaService.like(this.idea._id,"1").subscribe((value) => {
+      if(value){
+        location.reload();
+      }
+      else{
+        alert("ERROR");
+      }
+    });
+
   }
 
   ngAfterViewInit(){

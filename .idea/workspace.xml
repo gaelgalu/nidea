@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="63187bc4-692a-4c4b-89f0-ef1176c38e82" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular/src/app/comment/comment.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/comment/comment.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular/src/app/idea-body/idea-body.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/idea-body/idea-body.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seeds/idea.json" beforeDir="false" afterPath="$PROJECT_DIR$/seeds/idea.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/idea/idea.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/idea/idea.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/idea/idea.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/idea/idea.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/services/idea.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/services/idea.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Controllers/IdeaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Controllers/IdeaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fingeso1/NIdea/Controllers/IdeaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fingeso1/NIdea/Controllers/IdeaController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,10 +19,53 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Angular/src/app/services/collaborator.service.ts">
+        <entry file="file://$PROJECT_DIR$/Angular/src/app/models/idea.model.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="119">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Angular/src/app/shared/header-navigation/navigation.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-159">
+              <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Angular/src/app/comment/comment.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Angular/src/app/idea/idea.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-510">
+              <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#b#0;n#h6#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Angular/src/app/services/idea.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="37" column="57" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -29,75 +73,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Models/Collaborator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-145">
-              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Controllers/IdeaController.java">
+        <entry file="file://$PROJECT_DIR$/Angular/src/app/idea/idea.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1114">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="272">
+              <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#63#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Models/Idea.java">
+        <entry file="file://$PROJECT_DIR$/Angular/src/app/idea-body/idea-body.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+            <state relative-caret-position="221">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+              <folding>
+                <element signature="n#style#0;n#h2#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#b#0;n#h6#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Models/IdeaRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Models/Collaborator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="118" column="42" selection-start-line="118" selection-start-column="42" selection-end-line="118" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Controllers/CollaboratorController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Models/Commentary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Repositories/CommentaryRepository.java">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -126,18 +124,19 @@
         <option value="$PROJECT_DIR$/Angular/src/app/models/comment.model.ts" />
         <option value="$PROJECT_DIR$/Angular/src/app/comment/comment.component.html" />
         <option value="$PROJECT_DIR$/Angular/src/app/shared/sidebar/menu-items.ts" />
-        <option value="$PROJECT_DIR$/Angular/src/app/services/idea.service.ts" />
         <option value="$PROJECT_DIR$/Angular/src/app/starter/starter.component.ts" />
-        <option value="$PROJECT_DIR$/Angular/src/app/idea/idea.component.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Controllers/IdeaController.java" />
-        <option value="$PROJECT_DIR$/Angular/src/app/idea/idea.component.ts" />
         <option value="$PROJECT_DIR$/Angular/src/app/comment/comment.component.ts" />
         <option value="$PROJECT_DIR$/Angular/src/app/idea-body/idea-body.component.html" />
+        <option value="$PROJECT_DIR$/Angular/src/app/models/collaborator.model.ts" />
         <option value="$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Controllers/IdeaController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Controllers/IdeaController.java" />
+        <option value="$PROJECT_DIR$/Angular/src/app/idea/idea.component.html" />
+        <option value="$PROJECT_DIR$/Angular/src/app/services/idea.service.ts" />
+        <option value="$PROJECT_DIR$/Angular/src/app/idea/idea.component.ts" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -149,8 +148,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,48 +179,7 @@
               <item name="Angular" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="comment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NIdea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nidea" type="462c0819:PsiDirectoryNode" />
-              <item name="Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="desafio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NIdea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nidea" type="462c0819:PsiDirectoryNode" />
-              <item name="Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NIdea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nidea" type="462c0819:PsiDirectoryNode" />
-              <item name="Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="idea-body" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NIdea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nidea" type="462c0819:PsiDirectoryNode" />
-              <item name="Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NIdea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nidea" type="462c0819:PsiDirectoryNode" />
-              <item name="Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-              <item name="full" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NIdea" type="b2602c69:ProjectViewProjectNode" />
@@ -247,75 +203,34 @@
               <item name="Angular" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="starter" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NIdea" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nidea" type="462c0819:PsiDirectoryNode" />
+              <item name="Angular" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+              <item name="header-navigation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NIdea" type="b2602c69:ProjectViewProjectNode" />
               <item name="nidea" type="462c0819:PsiDirectoryNode" />
               <item name="seeds" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="NIdea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nidea" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NIdea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nidea" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NIdea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nidea" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NIdea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nidea" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="NIdea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NIdea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nidea" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="NIdea" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NIdea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nidea" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="NIdea" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NIdea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nidea" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="NIdea" type="462c0819:PsiDirectoryNode" />
-              <item name="Repositories" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547788976081" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="ts.external.directory.path" value="C:\Users\lu_ep\Desktop\fingeso\repos\lab\nidea\Angular\node_modules\typescript\lib" />
   </component>
@@ -370,13 +285,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31042000" />
+    <option name="totallyTimeSpent" value="35996000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18070363" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16787839" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -390,7 +305,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32286024" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32352942" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
@@ -584,8 +499,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Angular/src/app/models/idea.model.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="119">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -608,31 +523,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Angular/src/app/starter/starter.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/src/app/shared/header-navigation/navigation.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-159">
-          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        <state relative-caret-position="595">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Angular/src/app/shared/header-navigation/navigation.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/src/app/starter/starter.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
           <folding>
             <element signature="e#0#57#0" expanded="true" />
           </folding>
@@ -653,8 +551,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Controllers/CollaboratorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="-400">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -667,28 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/src/app/idea/idea.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/src/app/idea-body/idea-body.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#b#0;n#h6#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Angular/src/app/services/collaborator.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -696,13 +575,6 @@
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/src/app/models/collaborator.model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -729,27 +601,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Models/Collaborator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="118" column="42" selection-start-line="118" selection-start-column="42" selection-end-line="118" selection-end-column="42" />
+        <state relative-caret-position="-196">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Controllers/IdeaController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1114">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="127">
+          <caret line="125" column="78" selection-start-line="125" selection-start-column="78" selection-end-line="125" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/src/app/services/idea.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="48" lean-forward="true" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1384#1392#0" expanded="true" />
+            <element signature="e#2153#2159#0" expanded="true" />
+            <element signature="e#2956#2962#0" expanded="true" />
+            <element signature="e#4522#4523#0" expanded="true" />
+            <element signature="e#4566#4567#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -758,13 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/src/app/comment/comment.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="95" selection-start-line="4" selection-start-column="95" selection-end-line="4" selection-end-column="95" />
         </state>
       </provider>
     </entry>
@@ -799,10 +661,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/src/app/starter/starter.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/src/app/models/collaborator.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/src/app/idea-body/idea-body.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#0;n#h6#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/src/app/shared/header-navigation/navigation.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-159">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/src/app/comment/comment.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/src/app/idea/idea.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510">
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#0;n#h6#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Angular/src/app/services/idea.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="246">
+          <caret line="37" column="57" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/src/app/idea/idea.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
