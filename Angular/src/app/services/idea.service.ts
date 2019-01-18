@@ -19,7 +19,15 @@ export default class IdeaService {
   }
 
   searchByTag(tag: string): Observable<any>{
-    return this.http.get('/api/ideas/filter' + tag);
+    const body = new HttpParams()
+    .set('tag', tag);
+
+    return this.http.post<string>('/api/ideas/filter', body.toString(),
+      {
+        headers: new HttpHeaders()
+        .set('Content-Type', 'application/x-www-form-urlencoded')
+      });
+    // return this.http.get('/api/ideas/filter' + tag);
   }
 
   searchByTitle(title: string): Observable<any>{
@@ -31,7 +39,7 @@ export default class IdeaService {
         headers: new HttpHeaders()
         .set('Content-Type', 'application/x-www-form-urlencoded')
       });
-    return this.http.get('/api/ideas/search' + title);
+    // return this.http.get('/api/ideas/search' + title);
   }
 
   addIdea(idea: Idea): Observable<any>{
