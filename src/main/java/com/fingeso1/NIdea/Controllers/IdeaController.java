@@ -101,7 +101,6 @@ public class IdeaController {
 
 		IncrementId increment = new IncrementId();
 		SimpleDateFormat format = new SimpleDateFormat("dd-MM-yyyy hh:mm");
-
 		Commentary commentary = new Commentary(increment.getIncrementId(commentary_repository), commentaryRequest.getBody(), commentaryRequest.getIdea(), commentaryRequest.getAuthor(), format.format(new Date()));
 		Idea i =idea_repository.findBy_id(commentary.getIdea());
 		Collaborator c = collaborator_repository.findBy_id(i.getAuthor());
