@@ -23,7 +23,6 @@ export default class IdeaService {
   }
 
   searchByTitle(title: string): Observable<any>{
-<<<<<<< HEAD
     const body = new HttpParams()
     .set('title', title);
 
@@ -32,9 +31,7 @@ export default class IdeaService {
         headers: new HttpHeaders()
         .set('Content-Type', 'application/x-www-form-urlencoded')
       });
-=======
     return this.http.get('/api/ideas/search' + title);
->>>>>>> b30aaf35b52a8f442a27fc9eceb76fc42b7610b7
   }
 
   addIdea(idea: Idea): Observable<any>{
