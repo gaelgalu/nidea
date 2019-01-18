@@ -57,6 +57,10 @@ export class IdeaComponent implements AfterViewInit{
     });
   }
 
+  like(){
+
+  }
+
   ngAfterViewInit(){
 
   }
