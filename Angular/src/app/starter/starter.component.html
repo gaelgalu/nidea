@@ -95,17 +95,6 @@
 </style>
 
 <div class="form-style-3">
-  <form (ngSubmit)="save()">
-    <fieldset><legend>Crear Idea</legend>
-      <label><span>Título <span class="required">*</span></span><input type="text" class="input-field" name="title"  [(ngModel)]="idea.title"/></label>
-      <label><span>Descripción<span class="required">*</span></span><textarea type="text" name="content" class="textarea-field" [(ngModel)]="idea.content"></textarea></label>
-      <label><span>Etiquetas <span class="required">*</span></span><input type="text" class="input-field" name="tags"  [(ngModel)]="idea.tags"/></label>
-      <label><span> </span><button style="float: right" type="submit">Publicar</button></label>
-    </fieldset>
-  </form>
-</div>
-
-<div class="form-style-3">
   <form (ngSubmit)="searchBy(titleSearch.value)" #titleSearch="ngForm">
     <fieldset><legend>Buscar Idea</legend>
       <label><span> Búsqueda <span class="required">*</span></span><input class="input-field" type="text" name="search" ngModel/></label>
@@ -117,8 +106,20 @@
     </fieldset>
   </form>
 </div>
+<p></p>
+<p></p>
+<div class="form-style-3">
+  <form (ngSubmit)="save()">
+    <fieldset><legend>Crear Idea</legend>
+      <label><span>Título <span class="required">*</span></span><input type="text" class="input-field" name="title"  [(ngModel)]="idea.title"/></label>
+      <label><span>Descripción<span class="required">*</span></span><textarea type="text" name="content" class="textarea-field" [(ngModel)]="idea.content"></textarea></label>
+      <label><span>Etiquetas <span class="required">*</span></span><input type="text" class="input-field" name="tags"  [(ngModel)]="idea.tags"/></label>
+      <label><span> </span><button style="float: right" type="submit">Publicar</button></label>
+    </fieldset>
+  </form>
+</div>
 
-<h1 style="color: #cb2027">Listado de ideas</h1>
+<h1 align="center" style="color: #ffffff; background: #cb2027; text-align: center; width: 100%; border-radius: 10px">Listado de ideas</h1>
 <div *ngFor="let idea of ideas">
   <app-idea-body [ideaInput]=idea ></app-idea-body>
 </div>

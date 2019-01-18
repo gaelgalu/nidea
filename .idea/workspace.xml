@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63187bc4-692a-4c4b-89f0-ef1176c38e82" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/comment/comment.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/comment/comment.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/desafio-body/desafio-body.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/desafio-body/desafio-body.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Angular/src/app/desafio/desafio.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/desafio/desafio.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular/src/app/desafio/desafio.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/desafio/desafio.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Angular/src/app/idea-body/idea-body.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/idea-body/idea-body.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/src/app/idea/idea.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/idea/idea.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Angular/src/app/starter/starter.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/starter/starter.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular/src/app/starter/starter.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/src/app/starter/starter.component.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,66 +37,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Angular/src/app/desafio/desafio.component.ts">
+        <entry file="file://$PROJECT_DIR$/Angular/src/app/desafio/desafio.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
-              <caret line="55" column="3" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
+            <state relative-caret-position="102">
+              <caret line="60" column="4" lean-forward="true" selection-start-line="60" selection-start-column="4" selection-end-line="71" selection-end-column="14" />
               <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Angular/src/app/starter/starter.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="38" column="4" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#57#0" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#label#2;n#fieldset#0;n#form#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#label#3;n#fieldset#0;n#form#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Angular/src/app/desafio/desafio.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="110" column="30" selection-start-line="110" selection-start-column="30" selection-end-line="110" selection-end-column="30" />
-              <folding>
-                <element signature="n#style#0;n#button#0;n#label#3;n#fieldset#0;n#form#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#label#2;n#fieldset#0;n#form#0;n#div#1;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Angular/src/app/idea/idea.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+            <state relative-caret-position="195">
+              <caret line="35" column="18" lean-forward="true" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
               <folding>
-                <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#b#0;n#h6#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#b#0;n#h6#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Angular/src/app/idea-body/idea-body.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="n#style#0;n#h2#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#b#0;n#h6#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,12 +70,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Angular/src/app/starter/starter.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="107" selection-start-line="107" selection-end-line="118" selection-end-column="6" />
+            <state relative-caret-position="-315">
+              <caret line="88" column="15" lean-forward="true" selection-start-line="88" selection-start-column="15" selection-end-line="88" selection-end-column="15" />
               <folding>
-                <element signature="n#style#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#button#0;n#label#3;n#fieldset#0;n#form#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#label#2;n#fieldset#0;n#form#0;n#div#1;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#label#2;n#fieldset#0;n#form#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,11 +102,9 @@
         <option value="$PROJECT_DIR$/Angular/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/Angular/src/app/models/idea.model.ts" />
         <option value="$PROJECT_DIR$/Angular/src/app/models/comment.model.ts" />
-        <option value="$PROJECT_DIR$/Angular/src/app/comment/comment.component.html" />
         <option value="$PROJECT_DIR$/Angular/src/app/shared/sidebar/menu-items.ts" />
         <option value="$PROJECT_DIR$/Angular/src/app/comment/comment.component.ts" />
         <option value="$PROJECT_DIR$/Angular/src/app/models/collaborator.model.ts" />
-        <option value="$PROJECT_DIR$/Angular/src/app/idea/idea.component.html" />
         <option value="$PROJECT_DIR$/Angular/src/app/services/idea.service.ts" />
         <option value="$PROJECT_DIR$/Angular/src/app/idea/idea.component.ts" />
         <option value="$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Controllers/IdeaController.java" />
@@ -151,12 +113,14 @@
         <option value="$PROJECT_DIR$/Angular/src/app/idea-body/idea-body.component.ts" />
         <option value="$PROJECT_DIR$/Angular/src/app/models/desafio.model.ts" />
         <option value="$PROJECT_DIR$/Angular/src/app/desafio-body/desafio-body.component.ts" />
-        <option value="$PROJECT_DIR$/Angular/src/app/desafio-body/desafio-body.component.html" />
         <option value="$PROJECT_DIR$/Angular/src/app/starter/starter.component.ts" />
-        <option value="$PROJECT_DIR$/Angular/src/app/idea-body/idea-body.component.html" />
-        <option value="$PROJECT_DIR$/Angular/src/app/starter/starter.component.html" />
         <option value="$PROJECT_DIR$/Angular/src/app/desafio/desafio.component.ts" />
+        <option value="$PROJECT_DIR$/Angular/src/app/idea-body/idea-body.component.html" />
+        <option value="$PROJECT_DIR$/Angular/src/app/desafio-body/desafio-body.component.html" />
         <option value="$PROJECT_DIR$/Angular/src/app/desafio/desafio.component.html" />
+        <option value="$PROJECT_DIR$/Angular/src/app/starter/starter.component.html" />
+        <option value="$PROJECT_DIR$/Angular/src/app/comment/comment.component.html" />
+        <option value="$PROJECT_DIR$/Angular/src/app/idea/idea.component.html" />
       </list>
     </option>
   </component>
@@ -203,7 +167,7 @@
               <item name="Angular" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="desafio" type="462c0819:PsiDirectoryNode" />
+              <item name="comment" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NIdea" type="b2602c69:ProjectViewProjectNode" />
@@ -329,12 +293,12 @@
       <workItem from="1547602829405" duration="7818000" />
       <workItem from="1547647626343" duration="1117000" />
       <workItem from="1547777032698" duration="364000" />
-      <workItem from="1547826890549" duration="10589000" />
+      <workItem from="1547826890549" duration="13894000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49720000" />
+    <option name="totallyTimeSpent" value="53025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -412,9 +376,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/seeds/collaborator.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fingeso1/NIdea/Controllers/DesafioController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -653,13 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/src/app/comment/comment.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Angular/src/app/idea/idea.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1088">
@@ -729,16 +683,6 @@
     <entry file="file://$PROJECT_DIR$/Angular/src/app/desafio-body/desafio-body.component.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/src/app/desafio-body/desafio-body.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-          <folding>
-            <element signature="n#style#0;n#b#0;n#h6#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Angular/src/app/shared/header-navigation/navigation.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -746,53 +690,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/src/app/models/desafio.model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/src/app/idea-body/idea-body.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#b#0;n#h6#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/src/app/idea/idea.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#b#0;n#h6#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/src/app/starter/starter.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="107" selection-start-line="107" selection-end-line="118" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#button#0;n#label#3;n#fieldset#0;n#form#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#label#2;n#fieldset#0;n#form#0;n#div#1;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Angular/src/app/starter/starter.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="646">
           <caret line="38" column="4" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
           <folding>
             <element signature="e#0#57#0" expanded="true" />
@@ -810,13 +710,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/src/app/desafio-body/desafio-body.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#0;n#h6#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/src/app/comment/comment.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="107" selection-start-line="11" selection-start-column="107" selection-end-line="11" selection-end-column="107" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#0;n#h6#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/src/app/idea-body/idea-body.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#0;n#h6#0;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/src/app/models/desafio.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Angular/src/app/desafio/desafio.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="110" column="30" selection-start-line="110" selection-start-column="30" selection-end-line="110" selection-end-column="30" />
+        <state relative-caret-position="102">
+          <caret line="60" column="4" lean-forward="true" selection-start-line="60" selection-start-column="4" selection-end-line="71" selection-end-column="14" />
           <folding>
+            <element signature="n#style#0;n#button#0;n#label#2;n#fieldset#0;n#form#0;n#div#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#label#3;n#fieldset#0;n#form#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#label#2;n#fieldset#0;n#form#0;n#div#1;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/src/app/starter/starter.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315">
+          <caret line="88" column="15" lean-forward="true" selection-start-line="88" selection-start-column="15" selection-end-line="88" selection-end-column="15" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#label#2;n#fieldset#0;n#form#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/src/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/src/app/idea/idea.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="35" column="18" lean-forward="true" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#0;n#h6#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -95,18 +95,6 @@
 </style>
 
 <div class="form-style-3">
-  <form (ngSubmit)="save()">
-    <fieldset><legend>Crear Desafío</legend>
-      <label><span>Título <span class="required">*</span></span><input type="text" class="input-field" name="title"  [(ngModel)]="desafio.title"/></label>
-      <label><span>Descripción<span class="required">*</span></span><textarea type="text" name="content" class="textarea-field" [(ngModel)]="desafio.content"></textarea></label>
-      <label><span>Etiquetas <span class="required">*</span></span><input type="text" class="input-field" name="tags"  [(ngModel)]="desafio.tags"/></label>
-      <label><span>Fecha término<span class="required">*</span></span><input type="text" class="input-field" name="endDate"  [(ngModel)]="desafio.endDate"/></label>
-      <label><span> </span><button style="float: right" type="submit">Publicar</button></label>
-    </fieldset>
-  </form>
-</div>
-
-<div class="form-style-3">
   <form (ngSubmit)="searchBy(titleSearch.value)" #titleSearch="ngForm">
     <fieldset><legend>Buscar desafío</legend>
       <label><span> Búsqueda <span class="required">*</span></span><input class="input-field" type="text" name="search" ngModel/></label>
@@ -118,8 +106,20 @@
     </fieldset>
   </form>
 </div>
+<p></p>
+<div class="form-style-3">
+  <form (ngSubmit)="save()">
+    <fieldset><legend>Crear Desafío</legend>
+      <label><span>Título <span class="required">*</span></span><input type="text" class="input-field" name="title"  [(ngModel)]="desafio.title"/></label>
+      <label><span>Descripción<span class="required">*</span></span><textarea type="text" name="content" class="textarea-field" [(ngModel)]="desafio.content"></textarea></label>
+      <label><span>Etiquetas <span class="required">*</span></span><input type="text" class="input-field" name="tags"  [(ngModel)]="desafio.tags"/></label>
+      <label><span>Fecha término<span class="required">*</span></span><input type="text" class="input-field" name="endDate"  [(ngModel)]="desafio.endDate"/></label>
+      <label><span> </span><button style="float: right" type="submit">Publicar</button></label>
+    </fieldset>
+  </form>
+</div>
 
-<h1>Listado de desafíos</h1>
+<h1 align="center" style="color: #ffffff; background: #cb2027; text-align: center; width: 100%; border-radius: 10px">Listado de desafíos</h1>
 <div *ngFor="let desafio of desafios">
   <app-desafio-body [desafioInput]="desafio"></app-desafio-body>
 <!--   <h2>{{ idea.title }}</h2>

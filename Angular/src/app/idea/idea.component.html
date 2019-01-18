@@ -1,7 +1,57 @@
 <html>
-<div class="row">
-  <div class="col-12">
-    <div class="card">
+
+<style type="text/css">
+
+  .button{
+    background: #bf0b25;
+    border: 1px solid #9d0b22;
+    padding: 5px 15px 5px 15px;
+    color: #ffffff;
+    box-shadow: inset -1px -1px 3px #FF62A7;
+    -moz-box-shadow: inset -1px -1px 3px #FF62A7;
+    -webkit-box-shadow: inset -1px -1px 3px #FF62A7;
+    border-radius: 3px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    font-weight: bold;
+    width: 30%;
+    right: 10%;
+  }
+  .card{
+    font-weight: bold;
+    border: 1px solid #bf0b25;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: inset 0px 0px 15px #bf0b25;
+    -moz-box-shadow: inset 0px 0px 5px #bf0b25;
+    -webkit-box-shadow: inset 0px 0px 5px #ff8e95;
+    text-shadow: 1px 1px 1px #fff;
+  }
+  .textarea[type="text"]{
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border: 1px solid #bf0b25;
+    outline: none;
+    color: #000000;
+    padding: 5px 8px 5px 8px;
+    box-shadow: inset 1px 1px 4px #FFD5E7;
+    -moz-box-shadow: inset 1px 1px 4px #FFD5E7;
+    -webkit-box-shadow: inset 1px 1px 4px #FFD5E7;
+    background: #ffffff;
+    width:100%;
+  }
+
+  input::placeholder {
+    color: #5c5c5c;
+    font-size: 1.2em;
+    font-style: italic;
+  }
+  </style>
+
+
+<div class="card">
       <div class="card-body" >
         <h2 style="color:#bf0b25"> {{idea.title}} </h2>
         <h6 size="90%">Created by <b style="color:black">{{collaborator.name}} {{collaborator.lastname}}</b> at {{idea.creationDate}}</h6>
@@ -12,36 +62,32 @@
         <h6>Likes {{idea.likes}} </h6>
       </div>
     </div>
-  </div>
-</div>
 
 <div style="column-count: 2">
   <div id="left" style="text-align: center">
-    <h3><button (click)="like()">Like</button></h3>
+    <h3><button (click)="like()" class="button">Like</button></h3>
   </div>
   <div id="right" style="text-align: center">
-    <h3><button>Comment</button></h3>
+    <h3><button class="button">Comment</button></h3>
   </div>
 </div>
 
-<div class="row">
-  <div class="col-12">
-    <div class="card">
-      <div class="card-body" style="text-align: center;">
-        <form (ngSubmit)="save()" #commentForm="ngForm">
-          <div>
-            <input style="width: 100%" type="text" name="Comentario" [(ngModel)]="comment.body" placeholder="Escribe un comentario...">
-          </div>
-          <button type="submit" style="width: 20%">
-            Enviar
-          </button>
-        </form>
+
+<div class="card">
+  <div class="card-body" style="text-align: center;">
+    <form (ngSubmit)="save()" #commentForm="ngForm">
+      <div>
+        <textarea class="textarea" type="text" name="Comentario" [(ngModel)]="comment.body" placeholder="Escribe un comentario..."></textarea>
       </div>
-    </div>
+      <button type="submit" class="button">
+        Enviar
+      </button>
+    </form>
   </div>
 </div>
 
-    <h2>Commentaries</h2>
+
+    <h2 style="color: #ffffff; background: #cb2027; text-align: center; width: 100%; border-radius: 10px">Commentaries</h2>
     <div *ngFor="let comment of idea.publishedCommentaries" style="text-align: left">
       <app-comment [commentInput]="comment"></app-comment>
     </div>
