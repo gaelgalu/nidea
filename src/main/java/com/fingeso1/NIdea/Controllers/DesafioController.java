@@ -38,7 +38,7 @@ public class DesafioController {
         IncrementId increment = new IncrementId();
         ArrayList<String> listaTags = new ArrayList<String>(Arrays.asList(desafioRequest.getTags().split(",")));
         SimpleDateFormat format = new SimpleDateFormat("dd-MM-yyyy hh:mm");
-        Desafio desafio = new Desafio(increment.getIncrementId(desafio_repository), desafioRequest.getTitle(), desafioRequest.getContent(), desafioRequest.getAuthor(), listaTags, desafioRequest.getCreationDate(), desafioRequest.getEndDate());
+        Desafio desafio = new Desafio(increment.getIncrementId(desafio_repository), desafioRequest.getTitle(), desafioRequest.getContent(), desafioRequest.getAuthor(), listaTags, format.format(new Date()), desafioRequest.getEndDate());
         Collaborator c = collaborator_repository.findBy_id(desafio.getAuthor());
         ArrayList<Desafio> list = c.getPublishedDesafios();
         System.out.println(desafio.get_id());

@@ -7,16 +7,14 @@ public class DesafioRequest {
     private String content;
     private String tags;
     private String author;
-    private String creationDate;
     private String endDate;
     @Id
     private String _id;
-    public DesafioRequest(String title, String content, String tags, String author, String creationDate, String endDate) {
+    public DesafioRequest(String title, String content, String tags, String author, String endDate) {
         this.title = title;
         this.content = content;
         this.tags = tags;
         this.author = author;
-        this.creationDate = creationDate;
         this.endDate = endDate;
     }
 
@@ -38,14 +36,6 @@ public class DesafioRequest {
 
     public String getTitle(){
         return this.title;
-    }
-
-    public String getCreationDate(){
-        return this.creationDate;
-    }
-
-    public void setCreationDate(String creationDate){
-        this.creationDate = creationDate;
     }
 
     public String getEndDate(){
