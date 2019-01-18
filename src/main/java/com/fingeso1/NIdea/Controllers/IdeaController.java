@@ -101,7 +101,6 @@ public class IdeaController {
 
 		IncrementId increment = new IncrementId();
 		SimpleDateFormat format = new SimpleDateFormat("dd-MM-yyyy hh:mm");
-
 		Commentary commentary = new Commentary(increment.getIncrementId(commentary_repository), commentaryRequest.getBody(), commentaryRequest.getIdea(), commentaryRequest.getAuthor(), format.format(new Date()));
 		Idea i =idea_repository.findBy_id(commentary.getIdea());
 		Collaborator c = collaborator_repository.findBy_id(i.getAuthor());
@@ -124,6 +123,7 @@ public class IdeaController {
 		return idea_repository.findBy_id(_id);
 	}
 
+<<<<<<< HEAD
 	@RequestMapping(value = "/like/{id}/{author}", method = RequestMethod.PUT)
 	@ResponseBody
 	@CrossOrigin(origins = "*")
@@ -148,6 +148,19 @@ public class IdeaController {
 			collaborator_repository.save(c);
 			return idea;
 		}
+=======
+	@RequestMapping(value = "/like/{_id}", method = RequestMethod.PUT)
+	@ResponseBody
+	public Idea giveLike(@PathVariable("_id") String _id){
+		Idea idea = idea_repository.findBy_id(_id);
+		idea.setLikes(idea.getLikes() + 1);
+		idea_repository.save(idea);
+		Collaborator collaborator= collaborator_repository.findBy_id(idea.getAuthor());
+		List<String> list2= collaborator.getLikedIdeas();
+		list2.add(idea.get_id());
+		System.out.println(list2.get(0));
+		return idea;
+>>>>>>> d682e320d12c9cca3fbb6ed2328c19a71290d0e7
 	}
 
 }
