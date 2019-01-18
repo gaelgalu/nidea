@@ -10,14 +10,18 @@ public class Desafio implements Model {
     private String title;
     private String content;
     private String author;
+    private String creationDate;
+    private String endDate;
     private List<String> tags;
 
-    public Desafio(String _id, String title, String content, String author, List<String> tags){
+    public Desafio(String _id, String title, String content, String author, List<String> tags, String creationDate, String endDate){
         this._id = _id;
         this.title = title;
         this.content = content;
         this.author = author;
         this.tags = tags;
+        this.creationDate = creationDate;
+        this.endDate = endDate;
     }
 
     public String get_id(){
@@ -58,5 +62,21 @@ public class Desafio implements Model {
 
     public String getTitle(){
         return this.title;
+    }
+
+    public String getCreationDate(){
+        return this.creationDate;
+    }
+
+    public void setCreationDate(String creationDate){
+        this.creationDate = creationDate;
+    }
+
+    public String getEndDate(){
+        return this.endDate;
+    }
+
+    public void setEndDate(String endDate){
+        this.endDate = endDate;
     }
 }
