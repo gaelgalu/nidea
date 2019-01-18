@@ -15,7 +15,7 @@ export default class IdeaService {
   }
 
   searchIdea(id: string): Observable<any> {
-    return this.http.get('http://localhost:8090/ideas/' + id);
+    return this.http.get('/api/ideas/' + id);
   }
 
   searchByTag(tag: string): Observable<any>{

@@ -31,7 +31,11 @@
     </div>
   </div>
 
-
+<h1 style="color: #cb2027">Listado de ideas</h1>
+<div *ngFor="let idea of ideas">
+  <app-idea-body [ideaInput]=idea ></app-idea-body>
+</div>
+<!--
 <h1 style="color: #cb2027">Listado de ideas</h1>
 <div *ngFor="let idea of ideas">
   <div class="row">
@@ -52,5 +56,6 @@
     </div>
   </div>
   <app-idea-body [ideaInput]=idea ></app-idea-body>
-</div>
+</div>-->
+
 </html>
