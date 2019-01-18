@@ -19,11 +19,11 @@ export default class IdeaService {
   }
 
   searchByTag(tag: string): Observable<any>{
-    return this.http.post<string>('/api/ideas/filter',{params: {tag:tag}});
+    return this.http.get('/api/ideas/filter' + tag);
   }
 
   searchByTitle(title: string): Observable<any>{
-    return this.http.post<string>('/api/ideas/search',{params: {title:title}});
+    return this.http.get('/api/ideas/search' + title);
   }
 
   addIdea(idea: Idea): Observable<any>{
@@ -32,5 +32,9 @@ export default class IdeaService {
 
   addComment(comment: Comment): Observable<any>{
     return this.http.post<Comment>('/api/ideas/comment',comment);
+  }
+
+  like(id: string, author: string): Observable<any>{
+    return this.http.put('/api/ideas/like'+id+author,{});
   }
 }

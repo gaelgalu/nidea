@@ -3,7 +3,7 @@ import { NgbPanelChangeEvent } from '@ng-bootstrap/ng-bootstrap';
 import IdeaService from '../services/idea.service';
 import Idea from '../models/idea.model';
 import {ActivatedRoute} from "@angular/router";
-import Comment from '../models/comment.model';
+import {Comment} from '../models/comment.model';
 import {CollaboratorService} from "../services/collaborator.service";
 import Collaborator from "../models/collaborator.model";
 @Component({
@@ -63,7 +63,8 @@ export class IdeaComponent implements AfterViewInit{
   }
 
   like(){
-
+    this.ideaService.like(this.idea._id, "1");
+    location.reload();
   }
 
   ngAfterViewInit(){

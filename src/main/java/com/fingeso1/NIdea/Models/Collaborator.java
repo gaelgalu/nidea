@@ -11,12 +11,12 @@ import java.util.*;
 
 public class Collaborator implements Model {
   @Id
-  public String _id;
-  public String name;
-  public String lastname;
+  private String _id;
+  private String name;
+  private String lastname;
   // public Date bornDate;
   // public Date registerDate;
-  public String email;
+  private String email;
 
   private String password;
   private List<String> likedIdeas;
@@ -26,9 +26,9 @@ public class Collaborator implements Model {
   // private int likes;
   // private int state;
   @DBRef
-  public ArrayList<Idea> publishedIdeas;
+  private ArrayList<Idea> publishedIdeas;
   //pormientras
-  public ArrayList<Desafio> publishedDesafios;
+  private ArrayList<Desafio> publishedDesafios;
 
     public String getPassword() {
         return password;
