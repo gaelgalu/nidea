@@ -23,7 +23,14 @@ export default class IdeaService {
   }
 
   searchByTitle(title: string): Observable<any>{
-    return this.http.post<string>('/api/ideas/search',{params: {title:title}});
+    const body = new HttpParams()
+    .set('title', title);
+
+    return this.http.post<string>('/api/ideas/search', body.toString(),
+      {
+        headers: new HttpHeaders()
+        .set('Content-Type', 'application/x-www-form-urlencoded')
+      });
   }
 
   addIdea(idea: Idea): Observable<any>{

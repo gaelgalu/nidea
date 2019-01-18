@@ -43,7 +43,6 @@ export class DesafioComponent implements OnInit {
     this.desafioService.searchByTitle(title.title).subscribe(desafios => {
       this.desafios = desafios
     });
-    console.log(title.title);
   }
 
   ngAfterViewInit(){
