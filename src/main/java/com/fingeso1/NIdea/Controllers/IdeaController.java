@@ -74,7 +74,7 @@ public class IdeaController {
 		return filteredIdeas;
 	}
 
-	@RequestMapping(value = "/search", method = RequestMethod.GET)
+	@RequestMapping(value = "/search", method = RequestMethod.POST)
 	@CrossOrigin(origins = "*")
 	public List<Idea> searchTitleIdea(@Valid @RequestParam("title") String title){
 		List<Idea> ideas = idea_repository.findAll();
