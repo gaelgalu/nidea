@@ -1,35 +1,113 @@
 <html>
-<h1>Crear idea</h1>
-  <div class="row">
-    <div class="col-12">
-      <div class="card">
-        <div class="card-body">
-          <form (ngSubmit)="save()" #ideaForm="ngForm">
-            <div>
-              <label>title</label>
-              <input type="text" name="title" [(ngModel)]="idea.title">
-            </div>
-            <div>
-              <label>content</label>
-              <input type="text" name="content" [(ngModel)]="idea.content">
-            </div>
-            <div>
-              <label>tags</label>
-              <input type="text" name="tags" [(ngModel)]="idea.tags">
-            </div>
-            <div>
-              <label>author</label>
-              <input type="text" name="author" [(ngModel)]="idea.author">
-            </div>
 
-            <button type="submit">
-              Agregar
-            </button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
+<style type="text/css">
+  .form-style-3{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+  .form-style-3 label{
+    display:block;
+    margin-bottom: 10px;
+  }
+  .form-style-3 label > span{
+    float: left;
+    width: 100px;
+    color: #bf0b25;
+    font-weight: bold;
+    font-size: 13px;
+    text-shadow: 1px 1px 1px #fff;
+  }
+  .form-style-3 fieldset{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    margin: 0px 0px 10px 0px;
+    border: 1px solid #bf0b25;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: inset 0px 0px 15px #bf0b25;
+    -moz-box-shadow: inset 0px 0px 5px #bf0b25;
+    -webkit-box-shadow: inset 0px 0px 5px #ff8e95;
+  }
+  .form-style-3 fieldset legend{
+    color: #ffffff;
+    border-top: 1px solid #bf0b25;
+    border-left: 1px solid #bf0b25;
+    border-right: 1px solid #bf0b25;
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    background: #bf0b25;
+    padding: 0px 8px 3px 8px;
+    box-shadow: -0px -1px 2px #F1F1F1;
+    -moz-box-shadow:-0px -1px 2px #F1F1F1;
+    -webkit-box-shadow:-0px -1px 2px #F1F1F1;
+    font-weight: normal;
+    font-size: 16px;
+  }
+  .form-style-3 textarea{
+    width:250px;
+    height:100px;
+  }
+  .form-style-3 input[type=text],
+  .form-style-3 input[type=date],
+  .form-style-3 input[type=datetime],
+  .form-style-3 input[type=number],
+  .form-style-3 input[type=search],
+  .form-style-3 input[type=time],
+  .form-style-3 input[type=url],
+  .form-style-3 input[type=email],
+  .form-style-3 select,
+  .form-style-3 textarea{
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border: 1px solid #bf0b25;
+    outline: none;
+    color: #000000;
+    padding: 5px 8px 5px 8px;
+    box-shadow: inset 1px 1px 4px #FFD5E7;
+    -moz-box-shadow: inset 1px 1px 4px #FFD5E7;
+    -webkit-box-shadow: inset 1px 1px 4px #FFD5E7;
+    background: #ffffff;
+    width:90%;
+  }
+  .form-style-3  button[type=submit],
+  .form-style-3  input[type=button]{
+    background: #bf0b25;
+    border: 1px solid #9d0b22;
+    padding: 5px 15px 5px 15px;
+    color: #ffffff;
+    box-shadow: inset -1px -1px 3px #FF62A7;
+    -moz-box-shadow: inset -1px -1px 3px #FF62A7;
+    -webkit-box-shadow: inset -1px -1px 3px #FF62A7;
+    border-radius: 3px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    font-weight: bold;
+  }
+  .required{
+    color:red;
+    font-weight:normal;
+  }
+</style>
+
+<div class="form-style-3">
+  <form (ngSubmit)="save()">
+    <fieldset><legend>Crear Idea</legend>
+      <label><span>Título <span class="required">*</span></span><input type="text" class="input-field" name="title"  [(ngModel)]="idea.title"/></label>
+      <label><span>Descripción<span class="required">*</span></span><textarea type="text" name="content" class="textarea-field" [(ngModel)]="idea.content"></textarea></label>
+      <label><span>Etiquetas <span class="required">*</span></span><input type="text" class="input-field" name="tags"  [(ngModel)]="idea.tags"/></label>
+      <label><span> </span><button type="submit">Publicar</button></label>
+    </fieldset>
+  </form>
+</div>
+
+<label for="field4"><span>Subject</span><select name="field4" class="select-field">
+  <option value="Appointment">Appointment</option>
+  <option value="Interview">Interview</option>
+  <option value="Regarding a post">Regarding a post</option>
+</select></label>
 
 <h1>Buscar Idea por título</h1>
   <div class="row">
@@ -38,8 +116,7 @@
         <div class="card-body">
           <form (ngSubmit)="searchByTitle(titleSearch.value)" #titleSearch="ngForm">
             <div>
-              <label>Title</label>
-              <input type="text" name="title" ngModel>
+              <input type="text" name="title" ngModel placeholder="Título">
             </div>
             <button type="submit" value="submit">
               Buscar
@@ -57,8 +134,7 @@
         <div class="card-body">
           <form (ngSubmit)="searchByTag(tagSearch.value)" #tagSearch="ngForm">
             <div>
-              <label>Etiqueta</label>
-              <input type="text" name="tag" ngModel>
+              <input type="text" name="tag" ngModel placeholder="Etiqueta">
             </div>
             <button type="submit" value="submit">
               Buscar

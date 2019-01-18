@@ -25,6 +25,7 @@ export class StarterComponent implements AfterViewInit {
   }
 
   save() {
+    this.idea.author = "1";
   	this.ideaService.addIdea(this.idea).subscribe((result) => {
   		if (result._id) {
   			this.getIdeas();
