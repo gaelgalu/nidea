@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 import java.text.Normalizer;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
+import java.io.*;
+import java.text.*;
 
 @RestController
 @RequestMapping(value= "/desafios")
@@ -37,7 +37,8 @@ public class DesafioController {
 
         IncrementId increment = new IncrementId();
         ArrayList<String> listaTags = new ArrayList<String>(Arrays.asList(desafioRequest.getTags().split(",")));
-        Desafio desafio = new Desafio(increment.getIncrementId(desafio_repository), desafioRequest.getTitle(), desafioRequest.getContent(), desafioRequest.getAuthor(), listaTags);
+        SimpleDateFormat format = new SimpleDateFormat("dd-MM-yyyy hh:mm");
+        Desafio desafio = new Desafio(increment.getIncrementId(desafio_repository), desafioRequest.getTitle(), desafioRequest.getContent(), desafioRequest.getAuthor(), listaTags, desafioRequest.getCreationDate(), desafioRequest.getEndDate());
         Collaborator c = collaborator_repository.findBy_id(desafio.getAuthor());
         ArrayList<Desafio> list = c.getPublishedDesafios();
         System.out.println(desafio.get_id());
