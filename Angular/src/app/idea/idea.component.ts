@@ -63,7 +63,8 @@ export class IdeaComponent implements AfterViewInit{
   }
 
   like(){
-
+    this.ideaService.like(this.idea._id, "1");
+    location.reload();
   }
 
   ngAfterViewInit(){

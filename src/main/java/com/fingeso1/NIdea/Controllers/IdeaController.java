@@ -74,7 +74,7 @@ public class IdeaController {
 		return filteredIdeas;
 	}
 
-	@RequestMapping(value = "/search", method = RequestMethod.POST)
+	@RequestMapping(value = "/search", method = RequestMethod.GET)
 	@CrossOrigin(origins = "*")
 	public List<Idea> searchTitleIdea(@Valid @RequestParam("title") String title){
 		List<Idea> ideas = idea_repository.findAll();
@@ -123,6 +123,32 @@ public class IdeaController {
 		return idea_repository.findBy_id(_id);
 	}
 
+<<<<<<< HEAD
+	@RequestMapping(value = "/like/{id}/{author}", method = RequestMethod.PUT)
+	@ResponseBody
+	@CrossOrigin(origins = "*")
+	public Idea giveLike(@PathVariable("id") String id, @PathVariable("author") String author){
+		Idea idea = idea_repository.findBy_id(id);
+		Collaborator c = collaborator_repository.findBy_id(author);
+		if(!c.getLikedIdeas().contains(idea.get_id())){
+			idea.setLikes(idea.getLikes() + 1);
+			idea_repository.save(idea);
+			List<String> l = c.getLikedIdeas();
+			l.add(idea.get_id());
+			c.setLikedIdeas(l);
+			collaborator_repository.save(c);
+			return idea;
+		}
+		else{
+			idea.setLikes(idea.getLikes()-1);
+			idea_repository.save(idea);
+			List<String> l = c.getLikedIdeas();
+			l.remove(idea.get_id());
+			c.setLikedIdeas(l);
+			collaborator_repository.save(c);
+			return idea;
+		}
+=======
 	@RequestMapping(value = "/like/{_id}", method = RequestMethod.PUT)
 	@ResponseBody
 	public Idea giveLike(@PathVariable("_id") String _id){
@@ -134,6 +160,7 @@ public class IdeaController {
 		list2.add(idea.get_id());
 		System.out.println(list2.get(0));
 		return idea;
+>>>>>>> d682e320d12c9cca3fbb6ed2328c19a71290d0e7
 	}
 
 }
