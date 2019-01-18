@@ -85,6 +85,8 @@
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     font-weight: bold;
+    width: 15%;
+    right: 10%;
   }
   .required{
     color:red;
@@ -98,52 +100,23 @@
       <label><span>Título <span class="required">*</span></span><input type="text" class="input-field" name="title"  [(ngModel)]="idea.title"/></label>
       <label><span>Descripción<span class="required">*</span></span><textarea type="text" name="content" class="textarea-field" [(ngModel)]="idea.content"></textarea></label>
       <label><span>Etiquetas <span class="required">*</span></span><input type="text" class="input-field" name="tags"  [(ngModel)]="idea.tags"/></label>
-      <label><span> </span><button type="submit">Publicar</button></label>
+      <label><span> </span><button style="float: right" type="submit">Publicar</button></label>
     </fieldset>
   </form>
 </div>
 
-<label for="field4"><span>Subject</span><select name="field4" class="select-field">
-  <option value="Appointment">Appointment</option>
-  <option value="Interview">Interview</option>
-  <option value="Regarding a post">Regarding a post</option>
-</select></label>
-
-<h1>Buscar Idea por título</h1>
-  <div class="row">
-    <div class="col-12">
-      <div class="card">
-        <div class="card-body">
-          <form (ngSubmit)="searchByTitle(titleSearch.value)" #titleSearch="ngForm">
-            <div>
-              <input type="text" name="title" ngModel placeholder="Título">
-            </div>
-            <button type="submit" value="submit">
-              Buscar
-            </button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-
-<h1>Buscar Idea por etiqueta</h1>
-  <div class="row">
-    <div class="col-12">
-      <div class="card">
-        <div class="card-body">
-          <form (ngSubmit)="searchByTag(tagSearch.value)" #tagSearch="ngForm">
-            <div>
-              <input type="text" name="tag" ngModel placeholder="Etiqueta">
-            </div>
-            <button type="submit" value="submit">
-              Buscar
-            </button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="form-style-3">
+  <form (ngSubmit)="searchBy(titleSearch.value)" #titleSearch="ngForm">
+    <fieldset><legend>Buscar Idea</legend>
+      <label><span> Búsqueda <span class="required">*</span></span><input class="input-field" type="text" name="search" ngModel/></label>
+      <label><span>Tipo<span class="required">*</span></span><select name="selector" ngModel class="select-field">
+        <option value="title">Por título</option>
+        <option value="tag">Por tag</option>
+      </select></label>
+      <label><span> </span><button style="float: right" type="submit">Encontrar</button></label>
+    </fieldset>
+  </form>
+</div>
 
 <h1 style="color: #cb2027">Listado de ideas</h1>
 <div *ngFor="let idea of ideas">

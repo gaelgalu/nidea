@@ -9,7 +9,6 @@ import IdeaService from '../services/idea.service';
 export class StarterComponent implements AfterViewInit {
   subtitle: string;
   ideas: Idea[];
-
   idea: Idea;
   constructor(private ideaService: IdeaService) {
     this.subtitle = 'This is some text within a card block.';
@@ -36,18 +35,19 @@ export class StarterComponent implements AfterViewInit {
   	});
   }
 
-  searchByTitle(title) {
-    this.ideaService.searchByTitle(title.title).subscribe(ideas => {
-      this.ideas = ideas;
-      alert("Se han encontrado " + this.ideas.length + " ideas.");
-    });
-  }
-
-  searchByTag(tag){
-    this.ideaService.searchByTag(tag.tag).subscribe(ideas => {
-      this.ideas = ideas;
-      alert("Se han encontrado " + this.ideas.length + " ideas.");
-    });
+  searchBy(search) {
+    if(search.selector == "tag"){
+      this.ideaService.searchByTag(search.search).subscribe(ideas => {
+        this.ideas = ideas;
+        alert("Se han encontrado " + this.ideas.length + " ideas.");
+      });
+    }
+    else {
+      this.ideaService.searchByTitle(search.search).subscribe(ideas => {
+        this.ideas = ideas;
+        alert("Se han encontrado " + this.ideas.length + " ideas.");
+      });
+    }
   }
 
   ngAfterViewInit() {

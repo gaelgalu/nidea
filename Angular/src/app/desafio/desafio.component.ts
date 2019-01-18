@@ -29,6 +29,7 @@ export class DesafioComponent implements OnInit {
   }
 
   save() {
+    this.desafio.author = "1";
   	this.desafioService.addDesafio(this.desafio).subscribe((result) =>{
   		if (result._id) {
   			this.getDesafios();
@@ -39,18 +40,19 @@ export class DesafioComponent implements OnInit {
   	});
   }
 
-  searchByTitle(title) {
-    this.desafioService.searchByTitle(title.title).subscribe(desafios => {
-      this.desafios = desafios;
-      alert("Se han encontrado " + this.desafios.length + " desafíos.");
-    });
-  }
-
-  searchByTag(tag) {
-    this.desafioService.searchByTag(tag.tag).subscribe(desafios => {
-      this.desafios = desafios;
-      alert("Se han encontrado " + this.desafios.length + " desafíos.");
-    });
+  searchBy(search) {
+    if(search.selector == "tag"){
+      this.desafioService.searchByTag(search.search).subscribe(desafios => {
+        this.desafios = desafios;
+        alert("Se han encontrado " + this.desafios.length + " desafíos.");
+      });
+    }
+    else {
+      this.desafioService.searchByTitle(search.search).subscribe(desafios => {
+        this.desafios = desafios;
+        alert("Se han encontrado " + this.desafios.length + " desafíos.");
+      });
+    }
   }
 
   ngAfterViewInit(){
