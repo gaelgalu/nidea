@@ -13,7 +13,7 @@ export class CommentComponent implements OnInit {
   @Input() commentInput: Comment;
   collaborator: Collaborator;
   constructor(private collaboratorService: CollaboratorService) {
-
+    this.collaborator= new Collaborator();
   }
 
   ngOnInit() {

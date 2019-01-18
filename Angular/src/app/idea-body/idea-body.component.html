@@ -1,28 +1,21 @@
 <html>
-<style>
-  .botonImagen{
-    background-repeat: no-repeat;
-    height: 35px;
-    width: 35px;
-    background-position: left;
-  }
-
-
-</style>
 <div class="row">
   <div class="col-12">
     <div class="card">
       <div class="card-body" >
-        <h2 style="color:#bf0b25"> {{ideaInput.title}} </h2>
+        <a href="#/idea/{{ideaInput._id}}">
+        <h2 style="color:#bf0b25">
+          <ins>
+          {{ideaInput.title}}
+          </ins>
+        </h2>
+        </a>
         <h6 size="90%">Created by <b style="color:black">{{collaborator.name}} {{collaborator.lastname}}</b> at {{ideaInput.creationDate}}</h6>
         <h4> {{ideaInput.content}} </h4>
         <br>
         <p>Tags {{ideaInput.tags}}</p>
         <br>
-        <a href="#/idea/{{ideaInput._id}}">
-          <button align="bottom">Commentaries </button>
-        </a>
-        <input type="image" src="assets/images/me_gusta.png" width="35px" height="35px" class="botonImagen" value="me gusta" style=""/>
+          <img src="assets/images/me_gusta.png" width="20px" height="20px" align="left"/><h6>:{{ideaInput.likes}}</h6>
       </div>
     </div>
   </div>

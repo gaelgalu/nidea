@@ -123,13 +123,16 @@ public class IdeaController {
 		return idea_repository.findBy_id(_id);
 	}
 
-	@RequestMapping(value = "/{_id}/like", method = RequestMethod.PUT)
+	@RequestMapping(value = "/like/{_id}", method = RequestMethod.PUT)
 	@ResponseBody
 	public Idea giveLike(@PathVariable("_id") String _id){
 		Idea idea = idea_repository.findBy_id(_id);
 		idea.setLikes(idea.getLikes() + 1);
 		idea_repository.save(idea);
-
+		Collaborator collaborator= collaborator_repository.findBy_id(idea.getAuthor());
+		List<String> list2= collaborator.getLikedIdeas();
+		list2.add(idea.get_id());
+		System.out.println(list2.get(0));
 		return idea;
 	}
 
