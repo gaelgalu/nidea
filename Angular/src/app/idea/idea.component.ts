@@ -11,25 +11,24 @@ import Collaborator from "../models/collaborator.model";
 })
 
 export class IdeaComponent implements AfterViewInit{
-  idea2: Idea;
+  idea: Idea;
   _id: string;
-  comment: Comment[];
-  ca: number;
+  collaborator: Collaborator;
+  comment: Comment;
   ngOnInit(){
-    this.obtenerIdea(this._id);
-    this.getComment();
   }
-  constructor(private route: ActivatedRoute, private ideaService: IdeaService, private collabService: CollaboratorService){
-    this._id= this.route.snapshot.paramMap.get('id');
-    this.idea2 = new Idea();
+  constructor(private route: ActivatedRoute, private ideaService: IdeaService, private collaboratorService: CollaboratorService){
+    this.obtenerIdea(this.route.snapshot.paramMap.get('id'));
+    this.comment = new Comment();
   }
   getComment(){/*
     while(ca<this.idea2.publishedComment.length)
     this.comment = this.idea2.publishedComment;*/
   }
   obtenerIdea(id: string){
-    this.ideaService.searchIdea(id).subscribe(idea2=>{
-      this.idea2 = idea2
+    this.ideaService.searchIdea(id).subscribe(idea=>{
+      this.idea = idea;
+      this.getCollaborators();
     });
   }
 
@@ -43,6 +42,26 @@ export class IdeaComponent implements AfterViewInit{
       $event.preventDefault();
     }
   }
+
+  getCollaborators() {
+    this.collaboratorService.getById(this.idea.author).subscribe(collaborator => {
+      this.collaborator = collaborator;
+    });
+  }
+
+  save() {
+    this.comment.idea = this.idea._id;
+    this.comment.author = "1";
+    this.ideaService.addComment(this.comment).subscribe((result) => {
+      if (result) {
+        alert("Creado con exito");
+        location.reload();
+      } else {
+        alert("Error");
+      }
+    });
+  }
+
   ngAfterViewInit(){
 
   }

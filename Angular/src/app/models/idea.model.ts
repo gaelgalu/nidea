@@ -6,5 +6,6 @@ export default class Idea{
   tags: string;
   author: string;
   likes: number;
+  creationDate: string;
   publishedCommentaries: Comment[];
 }

@@ -24,6 +24,7 @@ import { AppComponent } from './app.component';
 import { SpinnerComponent } from './shared/spinner.component';
 import { IdeaComponent } from './idea/idea.component';
 import { DesafioComponent } from './desafio/desafio.component';
+import { CommentComponent } from './comment/comment.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { DesafioComponent } from './desafio/desafio.component';
     BreadcrumbComponent,
     SidebarComponent,
     IdeaComponent,
-    DesafioComponent
+    DesafioComponent,
+    CommentComponent
 
   ],
   imports: [

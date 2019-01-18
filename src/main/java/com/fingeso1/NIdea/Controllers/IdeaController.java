@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.validation.Valid;
+import javax.xml.stream.events.Comment;
 
 @RestController
 @RequestMapping(value = "/ideas")
@@ -25,6 +26,7 @@ public class IdeaController {
 	private CollaboratorRepository collaborator_repository;
 	@Autowired
 	private CommentaryRepository commentary_repository;
+
 	@RequestMapping(method = RequestMethod.GET)
 	@ResponseBody
 	@CrossOrigin(origins = "http://localhost:4200")
@@ -95,10 +97,12 @@ public class IdeaController {
 
 	@RequestMapping(value = "/comment", method = RequestMethod.POST)
 	@CrossOrigin(origins = "*")
-	public void createCommentary(@Valid @RequestBody CommentaryRequest commentaryRequest){
+	public Commentary createCommentary(@Valid @RequestBody CommentaryRequest commentaryRequest){
 
 		IncrementId increment = new IncrementId();
-		Commentary commentary = new Commentary(increment.getIncrementId(commentary_repository), commentaryRequest.getBody(), commentaryRequest.getIdea(), commentaryRequest.getAuthor());
+		SimpleDateFormat format = new SimpleDateFormat("dd-MM-yyyy hh:mm");
+
+		Commentary commentary = new Commentary(increment.getIncrementId(commentary_repository), commentaryRequest.getBody(), commentaryRequest.getIdea(), commentaryRequest.getAuthor(), format.format(new Date()));
 		Idea i =idea_repository.findBy_id(commentary.getIdea());
 		Collaborator c = collaborator_repository.findBy_id(i.getAuthor());
 		ArrayList<Commentary> list2 = i.getPublishedCommentaries();
@@ -108,6 +112,7 @@ public class IdeaController {
 		idea_repository.save(i);
 		commentary_repository.save(commentary);
 		collaborator_repository.save(c);
+		return commentary;
 	}
 
 

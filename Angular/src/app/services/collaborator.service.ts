@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
 import {Observable} from "rxjs";
+import Collaborator from "../models/collaborator.model";
 
 @Injectable({
   providedIn: 'root'
@@ -13,8 +14,8 @@ export class CollaboratorService {
     return this.http.get('/api/collaborators');
   }
 
-  getById(id: string): Observable<any>{
-    return this.http.get('/api/collaborators/'+id);
+  getById(id: string): Observable<Collaborator>{
+    return this.http.get<Collaborator>('/api/collaborators/'+id);
   }
 
 }
