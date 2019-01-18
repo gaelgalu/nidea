@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {Observable} from "rxjs";
 import Desafio from "../models/desafio.model";
 import DesafioService from "../services/desafio.service";
+import {NgbPanelChangeEvent} from "@ng-bootstrap/ng-bootstrap";
 
 @Component({
   selector: 'app-desafio',
@@ -43,5 +44,9 @@ export class DesafioComponent implements OnInit {
       this.desafios = desafios
     });
     console.log(title.title);
+  }
+
+  ngAfterViewInit(){
+
   }
 }

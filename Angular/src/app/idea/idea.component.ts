@@ -3,9 +3,9 @@ import { NgbPanelChangeEvent } from '@ng-bootstrap/ng-bootstrap';
 import IdeaService from '../services/idea.service';
 import Idea from '../models/idea.model';
 import {ActivatedRoute} from "@angular/router";
+import Comment from '../models/comment.model';
 import {CollaboratorService} from "../services/collaborator.service";
 import Collaborator from "../models/collaborator.model";
-import {Comment} from "../models/comment.model";
 @Component({
   templateUrl: 'idea.component.html'
 })
@@ -21,12 +21,18 @@ export class IdeaComponent implements AfterViewInit{
     this.obtenerIdea(this.route.snapshot.paramMap.get('id'));
     this.comment = new Comment();
   }
+  getComment(){/*
+    while(ca<this.idea2.publishedComment.length)
+    this.comment = this.idea2.publishedComment;*/
+  }
   obtenerIdea(id: string){
     this.ideaService.searchIdea(id).subscribe(idea=>{
       this.idea = idea;
       this.getCollaborators();
     });
   }
+
+
   beforeChange($event: NgbPanelChangeEvent) {
     if ($event.panelId === 'preventchange-2') {
       $event.preventDefault();
