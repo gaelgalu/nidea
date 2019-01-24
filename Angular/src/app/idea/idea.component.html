@@ -59,16 +59,16 @@
         <br>
         <p>Tags {{idea.tags}}</p>
         <br>
-        <h6>Likes {{idea.likes}} </h6>
+        <h6>Me gusta: {{idea.likes}} </h6>
       </div>
     </div>
 
 <div style="column-count: 2">
   <div id="left" style="text-align: center">
-    <h3><button (click)="like()" class="button">Like</button></h3>
+    <h3><button (click)="like()" class="button">¡Me gusta!</button></h3>
   </div>
   <div id="right" style="text-align: center">
-    <h3><button class="button">Comment</button></h3>
+    <h3><button class="button">Comentar</button></h3>
   </div>
 </div>
 
@@ -87,7 +87,7 @@
 </div>
 
 
-    <h2 style="color: #ffffff; background: #cb2027; text-align: center; width: 100%; border-radius: 10px">Commentaries</h2>
+    <h2 style="color: #ffffff; background: #cb2027; text-align: center; width: 100%; border-radius: 10px">Comentarios</h2>
     <div *ngFor="let comment of idea.publishedCommentaries" style="text-align: left">
       <app-comment [commentInput]="comment"></app-comment>
     </div>

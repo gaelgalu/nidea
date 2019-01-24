@@ -1,27 +1,26 @@
 [
 	{
 		"_id": "1",
-		"name": "Joseeee",
+		"name": "José",
 		"lastname": "Mellado",
 		"email": "jose.mellado@usach.cl",
 		"publishedIdeas": 
 		[
 			{
 				"_id": "1",
-				"content": "Esta es la gran idea de Mellado",
-				"title": "Título de la idea",
+				"content": "Utilizar blockchain como sistema de sufragio",
+				"title": "Blockchain y política",
 				"likes": 10,
 				"creationDate": "10-11-2012 23:50",
 				"author": "1",
 				"tags": [
-					"Robótica",
-					"Espacio",
-					"Ingeniería"
+					"Blockchain",
+					"Política"
 				],
 				"publishedCommentaries": [
 					{
 						"_id": "1",
-						"body": "Este es el comentario de Mellado",
+						"body": "Permite que el proceso de votación sea transparente",
 						"idea": "1",
 						"author": "1",
 						"commentDate": "11-12-2018 14:56"
@@ -31,30 +30,31 @@
 
 			{
 				"_id": "4",
-				"content": "Esta es la segunda gran idea de Mellado",
-				"title": "Título de la idea",
+				"content": "El realizar talleres de robótica permitiría acercar más esta tecnología, guiando a nuevos desarrollos",
+				"title": "Realizar talleres de robótica",
 				"likes": 10,
 				"creationDate": "10-11-2012 23:50",
 				"author": "1",
 				"tags": [
 					"Robótica",
-					"Espacio",
-					"Ingeniería"
+					"Desarrollo",
+					"Talleres",
+					"Aprendizaje"
 				],
 				"publishedCommentaries": []
 			},
 
 			{
 				"_id": "5",
-				"content": "Esta es la tercera gran idea de Mellado",
-				"title": "Título de la idea",
+				"content": "Estudios con redes neuronales para detección temprana de enfermedades",
+				"title": "Redes neuronales y la salud",
 				"likes": 10,
 				"creationDate": "10-11-2012 23:50",
 				"author": "1",
 				"tags": [
-					"Robótica",
-					"Espacio",
-					"Ingeniería"
+					"Salud",
+					"Redes Neuronales",
+					"Prevención de enfermedades"
 				],
 				"publishedCommentaries": []
 			}
@@ -62,12 +62,14 @@
 		"publishedDesafios" : [
 			{
 				"_id": "46",
-				"content": "Este es el primer desafio del men",
-				"title": "Título del desafío",
+				"content": "Métodos para fomentar el aprendizaje de la programación en escuelas básicas.",
+				"title": "La creatividad de los niños enfocada a la programación",
 				"author": "1",
 				"tags": [
-					"Ingeniería",
-					"Salud"
+					"Futuro",
+					"Desarrollo",
+					"Aprendizaje",
+					"Creatividad"
 				],
 				"creationDate": "25-01-2019 12:00",
 				"endDate": "28-01-2019 12:00"
@@ -76,7 +78,7 @@
 		"publishedCommentaries": [
 			{
 				"_id": "1",
-				"body": "Este es el comentario de Mellado",
+				"body": "Permite que el proceso de votación sea transparente",
 				"idea": "1",
 				"author": "1"
 			}
@@ -97,15 +99,15 @@
 		[
 			{
 				"_id": "2",
-				"content": "Esta es la gran idea de Amigo",
-				"title": "Título de la idea",
+				"content": "La realidad virtual podría aplicarse como una nueva metodología de estudios.",
+				"title": "La realidad virtual, una nueva aula",
 				"likes": 10,
 				"creationDate": "10-11-2012 23:50",
 				"author": "2",
 				"tags": [
-					"Robótica",
-					"Espacio",
-					"Ingeniería"
+					"Realidad virtual",
+					"Enseñanza",
+					"Estudios"
 				],
 				"publishedCommentaries": []
 			}
@@ -125,8 +127,8 @@
 		[
 			{
 				"_id": "3",
-				"content": "Esta es la gran idea de Gaete",
-				"title": "Título de la idea",
+				"content": "Simulación de universos mediante redes neuronales para aprender más sobre el cosmos.",
+				"title": "Redes neuronales para entender el universo",
 				"likes": 10,
 				"creationDate": "10-11-2012 23:50",
 				"author": "3",

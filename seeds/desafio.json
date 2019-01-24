@@ -1,12 +1,14 @@
 [
 	{
 		"_id": "46",
-		"content": "Este es el primer desafio del men",
-		"title": "Título del desafío",
+		"content": "Métodos para fomentar el aprendizaje de la programación en escuelas básicas.",
+		"title": "La creatividad de los niños enfocada a la programación",
 		"author": "1",
 		"tags": [
-			"Ingeniería",
-			"Salud"
+			"Futuro",
+			"Desarrollo",
+			"Aprendizaje",
+			"Creatividad"
 		],
 		"creationDate": "25-01-2019 12:00",
 		"endDate": "28-01-2019 12:00"
