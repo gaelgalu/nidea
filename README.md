@@ -1,4 +1,4 @@
-# NIDEA studios.
+# NIDEA software studios.
 Sistema de administración de ideas
 
 Para utilizar
