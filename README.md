@@ -9,3 +9,5 @@ Para utilizar
 4. En la carpeta Angular, instalar npm mediante el comando 'npm install'.
 5. En la carpeta Angular, compilar el frontend mediante el comando 'npm start'.
 6. Acceder mediante un navegador a la url 'localhost:4200'.
+
+![alt text](https://i.imgur.com/wmh1keY.png)
